@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 08dddbe8cd9000145b663e78690b3a53
+guid: 51974fb692a0b2044982735ad851665e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3539784071316144086
-    second: Derecha_Player1 1_0
+      213: 2488122302676511
+    second: AbajoDerecha_Player1_0
   - first:
-      213: 7351636742619321386
-    second: Derecha_Player1 1_1
+      213: 6435723095582135481
+    second: AbajoDerecha_Player1_1
   - first:
-      213: -3794437503148987362
-    second: Derecha_Player1 1_2
+      213: -7133384548095789814
+    second: AbajoDerecha_Player1_2
   - first:
-      213: -6464788672579381388
-    second: Derecha_Player1 1_3
+      213: -188364073365096946
+    second: AbajoDerecha_Player1_3
   - first:
-      213: 136540428471169063
-    second: Derecha_Player1 1_4
+      213: -7859775090577860379
+    second: AbajoDerecha_Player1_4
   - first:
-      213: 6846977477801399828
-    second: Derecha_Player1 1_5
+      213: 5473507375938426877
+    second: AbajoDerecha_Player1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -154,12 +154,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Derecha_Player1 1_0
+      name: AbajoDerecha_Player1_0
       rect:
         serializedVersion: 2
         x: 9
         y: 7
-        width: 15
+        width: 14
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -169,19 +169,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a208d97442920eec0800000000000000
-      internalID: -3539784071316144086
+      spriteID: f1e320e1fe6d80000800000000000000
+      internalID: 2488122302676511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_1
+      name: AbajoDerecha_Player1_1
       rect:
         serializedVersion: 2
         x: 41
-        y: 6
-        width: 15
+        y: 5
+        width: 14
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,18 +191,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a24d881baa2460660800000000000000
-      internalID: 7351636742619321386
+      spriteID: 9b453f8be08405950800000000000000
+      internalID: 6435723095582135481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_2
+      name: AbajoDerecha_Player1_2
       rect:
         serializedVersion: 2
         x: 73
-        y: 7
+        y: 6
         width: 15
         height: 18
       alignment: 0
@@ -213,19 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1c6266d133775bc0800000000000000
-      internalID: -3794437503148987362
+      spriteID: a057d7c3c80210d90800000000000000
+      internalID: -7133384548095789814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_3
+      name: AbajoDerecha_Player1_3
       rect:
         serializedVersion: 2
         x: 105
         y: 7
-        width: 15
+        width: 14
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -235,19 +235,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 477dfe644f47846a0800000000000000
-      internalID: -6464788672579381388
+      spriteID: e06b0ae8fdbc26df0800000000000000
+      internalID: -188364073365096946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_4
+      name: AbajoDerecha_Player1_4
       rect:
         serializedVersion: 2
         x: 137
-        y: 6
-        width: 15
+        y: 5
+        width: 14
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -257,18 +257,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 720f088dbc615e100800000000000000
-      internalID: 136540428471169063
+      spriteID: 5e894afa2387ce290800000000000000
+      internalID: -7859775090577860379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_5
+      name: AbajoDerecha_Player1_5
       rect:
         serializedVersion: 2
         x: 169
-        y: 7
+        y: 6
         width: 15
         height: 18
       alignment: 0
@@ -279,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 416d37d3db9550f50800000000000000
-      internalID: 6846977477801399828
+      spriteID: df75a4265fdc5fb40800000000000000
+      internalID: 5473507375938426877
       vertices: []
       indices: 
       edges: []
@@ -299,12 +299,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Derecha_Player1 1_0: -3539784071316144086
-      Derecha_Player1 1_1: 7351636742619321386
-      Derecha_Player1 1_2: -3794437503148987362
-      Derecha_Player1 1_3: -6464788672579381388
-      Derecha_Player1 1_4: 136540428471169063
-      Derecha_Player1 1_5: 6846977477801399828
+      AbajoDerecha_Player1_0: 2488122302676511
+      AbajoDerecha_Player1_1: 6435723095582135481
+      AbajoDerecha_Player1_2: -7133384548095789814
+      AbajoDerecha_Player1_3: -188364073365096946
+      AbajoDerecha_Player1_4: -7859775090577860379
+      AbajoDerecha_Player1_5: 5473507375938426877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
