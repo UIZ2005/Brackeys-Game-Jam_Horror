@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 08dddbe8cd9000145b663e78690b3a53
+guid: 160a1264548eceb4e9f559c129844c00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3539784071316144086
-    second: Derecha_Player1 1_0
+      213: -3381774712059725824
+    second: Autotiles_no_inner_corners_16x16_0
   - first:
-      213: 7351636742619321386
-    second: Derecha_Player1 1_1
+      213: 945536635295669795
+    second: Autotiles_no_inner_corners_16x16_1
   - first:
-      213: -3794437503148987362
-    second: Derecha_Player1 1_2
+      213: -815657342431794610
+    second: Autotiles_no_inner_corners_16x16_2
   - first:
-      213: -6464788672579381388
-    second: Derecha_Player1 1_3
-  - first:
-      213: 136540428471169063
-    second: Derecha_Player1 1_4
-  - first:
-      213: 6846977477801399828
-    second: Derecha_Player1 1_5
+      213: 1562675667801573286
+    second: Autotiles_no_inner_corners_16x16_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -124,43 +118,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Derecha_Player1 1_0
+      name: Autotiles_no_inner_corners_16x16_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 7
-        width: 15
-        height: 18
+        x: 0
+        y: 0
+        width: 81
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a208d97442920eec0800000000000000
-      internalID: -3539784071316144086
+      spriteID: 008f74911d58111d0800000000000000
+      internalID: -3381774712059725824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_1
+      name: Autotiles_no_inner_corners_16x16_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 6
-        width: 15
-        height: 19
+        x: 84
+        y: 47
+        width: 40
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a24d881baa2460660800000000000000
-      internalID: 7351636742619321386
+      spriteID: 32e9ae46f883f1d00800000000000000
+      internalID: 945536635295669795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_2
+      name: Autotiles_no_inner_corners_16x16_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 7
-        width: 15
-        height: 18
+        x: 127
+        y: 0
+        width: 65
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1c6266d133775bc0800000000000000
-      internalID: -3794437503148987362
+      spriteID: e4ae9e5f7f33ea4f0800000000000000
+      internalID: -815657342431794610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Derecha_Player1 1_3
+      name: Autotiles_no_inner_corners_16x16_3
       rect:
         serializedVersion: 2
-        x: 105
-        y: 7
-        width: 15
-        height: 18
+        x: 81
+        y: 0
+        width: 45
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,52 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 477dfe644f47846a0800000000000000
-      internalID: -6464788672579381388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Derecha_Player1 1_4
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 6
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 720f088dbc615e100800000000000000
-      internalID: 136540428471169063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Derecha_Player1 1_5
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 7
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 416d37d3db9550f50800000000000000
-      internalID: 6846977477801399828
+      spriteID: 6a7857e8d3dbfa510800000000000000
+      internalID: 1562675667801573286
       vertices: []
       indices: 
       edges: []
@@ -299,12 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Derecha_Player1 1_0: -3539784071316144086
-      Derecha_Player1 1_1: 7351636742619321386
-      Derecha_Player1 1_2: -3794437503148987362
-      Derecha_Player1 1_3: -6464788672579381388
-      Derecha_Player1 1_4: 136540428471169063
-      Derecha_Player1 1_5: 6846977477801399828
+      Autotiles_no_inner_corners_16x16_0: -3381774712059725824
+      Autotiles_no_inner_corners_16x16_1: 945536635295669795
+      Autotiles_no_inner_corners_16x16_2: -815657342431794610
+      Autotiles_no_inner_corners_16x16_3: 1562675667801573286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
