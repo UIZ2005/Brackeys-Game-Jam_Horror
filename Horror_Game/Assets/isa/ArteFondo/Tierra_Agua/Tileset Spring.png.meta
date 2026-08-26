@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +116,7 @@ TextureImporter:
       name: Tileset Spring_0
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 304
         width: 16
         height: 16
@@ -138,7 +138,7 @@ TextureImporter:
       name: Tileset Spring_1
       rect:
         serializedVersion: 2
-        x: 143
+        x: 144
         y: 304
         width: 16
         height: 16
@@ -160,7 +160,7 @@ TextureImporter:
       name: Tileset Spring_2
       rect:
         serializedVersion: 2
-        x: 159
+        x: 160
         y: 304
         width: 16
         height: 16
@@ -182,7 +182,7 @@ TextureImporter:
       name: Tileset Spring_3
       rect:
         serializedVersion: 2
-        x: 175
+        x: 176
         y: 304
         width: 16
         height: 16
@@ -204,7 +204,7 @@ TextureImporter:
       name: Tileset Spring_4
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 288
         width: 16
         height: 16
@@ -226,7 +226,7 @@ TextureImporter:
       name: Tileset Spring_5
       rect:
         serializedVersion: 2
-        x: 143
+        x: 144
         y: 288
         width: 16
         height: 16
@@ -248,7 +248,7 @@ TextureImporter:
       name: Tileset Spring_6
       rect:
         serializedVersion: 2
-        x: 159
+        x: 176
         y: 288
         width: 16
         height: 16
@@ -270,8 +270,8 @@ TextureImporter:
       name: Tileset Spring_7
       rect:
         serializedVersion: 2
-        x: 175
-        y: 288
+        x: 128
+        y: 272
         width: 16
         height: 16
       alignment: 0
@@ -292,7 +292,7 @@ TextureImporter:
       name: Tileset Spring_8
       rect:
         serializedVersion: 2
-        x: 127
+        x: 144
         y: 272
         width: 16
         height: 16
@@ -314,7 +314,7 @@ TextureImporter:
       name: Tileset Spring_9
       rect:
         serializedVersion: 2
-        x: 143
+        x: 160
         y: 272
         width: 16
         height: 16
@@ -336,7 +336,7 @@ TextureImporter:
       name: Tileset Spring_10
       rect:
         serializedVersion: 2
-        x: 159
+        x: 176
         y: 272
         width: 16
         height: 16
@@ -358,8 +358,8 @@ TextureImporter:
       name: Tileset Spring_11
       rect:
         serializedVersion: 2
-        x: 175
-        y: 272
+        x: 128
+        y: 256
         width: 16
         height: 16
       alignment: 0
@@ -380,7 +380,7 @@ TextureImporter:
       name: Tileset Spring_12
       rect:
         serializedVersion: 2
-        x: 127
+        x: 144
         y: 256
         width: 16
         height: 16
@@ -402,7 +402,7 @@ TextureImporter:
       name: Tileset Spring_13
       rect:
         serializedVersion: 2
-        x: 143
+        x: 160
         y: 256
         width: 16
         height: 16
@@ -424,7 +424,7 @@ TextureImporter:
       name: Tileset Spring_14
       rect:
         serializedVersion: 2
-        x: 159
+        x: 176
         y: 256
         width: 16
         height: 16
@@ -446,8 +446,8 @@ TextureImporter:
       name: Tileset Spring_15
       rect:
         serializedVersion: 2
-        x: 175
-        y: 256
+        x: 128
+        y: 240
         width: 16
         height: 16
       alignment: 0
@@ -468,7 +468,7 @@ TextureImporter:
       name: Tileset Spring_16
       rect:
         serializedVersion: 2
-        x: 127
+        x: 144
         y: 240
         width: 16
         height: 16
@@ -490,7 +490,7 @@ TextureImporter:
       name: Tileset Spring_17
       rect:
         serializedVersion: 2
-        x: 143
+        x: 160
         y: 240
         width: 16
         height: 16
@@ -512,7 +512,7 @@ TextureImporter:
       name: Tileset Spring_18
       rect:
         serializedVersion: 2
-        x: 159
+        x: 176
         y: 240
         width: 16
         height: 16
@@ -534,8 +534,8 @@ TextureImporter:
       name: Tileset Spring_19
       rect:
         serializedVersion: 2
-        x: 175
-        y: 240
+        x: 128
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -556,7 +556,7 @@ TextureImporter:
       name: Tileset Spring_20
       rect:
         serializedVersion: 2
-        x: 127
+        x: 144
         y: 224
         width: 16
         height: 16
@@ -578,7 +578,7 @@ TextureImporter:
       name: Tileset Spring_21
       rect:
         serializedVersion: 2
-        x: 143
+        x: 176
         y: 224
         width: 16
         height: 16
@@ -600,8 +600,8 @@ TextureImporter:
       name: Tileset Spring_22
       rect:
         serializedVersion: 2
-        x: 159
-        y: 224
+        x: 128
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -622,8 +622,8 @@ TextureImporter:
       name: Tileset Spring_23
       rect:
         serializedVersion: 2
-        x: 175
-        y: 224
+        x: 160
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -644,7 +644,7 @@ TextureImporter:
       name: Tileset Spring_24
       rect:
         serializedVersion: 2
-        x: 127
+        x: 176
         y: 208
         width: 16
         height: 16
@@ -666,8 +666,8 @@ TextureImporter:
       name: Tileset Spring_25
       rect:
         serializedVersion: 2
-        x: 143
-        y: 208
+        x: 128
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -688,8 +688,8 @@ TextureImporter:
       name: Tileset Spring_26
       rect:
         serializedVersion: 2
-        x: 159
-        y: 208
+        x: 144
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -710,8 +710,8 @@ TextureImporter:
       name: Tileset Spring_27
       rect:
         serializedVersion: 2
-        x: 175
-        y: 208
+        x: 160
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -732,7 +732,7 @@ TextureImporter:
       name: Tileset Spring_28
       rect:
         serializedVersion: 2
-        x: 127
+        x: 176
         y: 192
         width: 16
         height: 16
@@ -754,8 +754,8 @@ TextureImporter:
       name: Tileset Spring_29
       rect:
         serializedVersion: 2
-        x: 143
-        y: 192
+        x: 128
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -776,8 +776,8 @@ TextureImporter:
       name: Tileset Spring_30
       rect:
         serializedVersion: 2
-        x: 159
-        y: 192
+        x: 144
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -798,8 +798,8 @@ TextureImporter:
       name: Tileset Spring_31
       rect:
         serializedVersion: 2
-        x: 175
-        y: 192
+        x: 160
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -820,7 +820,7 @@ TextureImporter:
       name: Tileset Spring_32
       rect:
         serializedVersion: 2
-        x: 127
+        x: 176
         y: 176
         width: 16
         height: 16
@@ -842,8 +842,8 @@ TextureImporter:
       name: Tileset Spring_33
       rect:
         serializedVersion: 2
-        x: 143
-        y: 176
+        x: 128
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -864,8 +864,8 @@ TextureImporter:
       name: Tileset Spring_34
       rect:
         serializedVersion: 2
-        x: 159
-        y: 176
+        x: 144
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -886,8 +886,8 @@ TextureImporter:
       name: Tileset Spring_35
       rect:
         serializedVersion: 2
-        x: 175
-        y: 176
+        x: 176
+        y: 160
         width: 16
         height: 16
       alignment: 0
@@ -908,8 +908,8 @@ TextureImporter:
       name: Tileset Spring_36
       rect:
         serializedVersion: 2
-        x: 127
-        y: 160
+        x: 128
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -930,8 +930,8 @@ TextureImporter:
       name: Tileset Spring_37
       rect:
         serializedVersion: 2
-        x: 143
-        y: 160
+        x: 144
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -952,8 +952,8 @@ TextureImporter:
       name: Tileset Spring_38
       rect:
         serializedVersion: 2
-        x: 159
-        y: 160
+        x: 160
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -974,8 +974,8 @@ TextureImporter:
       name: Tileset Spring_39
       rect:
         serializedVersion: 2
-        x: 175
-        y: 160
+        x: 176
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -996,8 +996,8 @@ TextureImporter:
       name: Tileset Spring_40
       rect:
         serializedVersion: 2
-        x: 127
-        y: 144
+        x: 128
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1018,8 +1018,8 @@ TextureImporter:
       name: Tileset Spring_41
       rect:
         serializedVersion: 2
-        x: 143
-        y: 144
+        x: 144
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1040,8 +1040,8 @@ TextureImporter:
       name: Tileset Spring_42
       rect:
         serializedVersion: 2
-        x: 159
-        y: 144
+        x: 160
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1062,8 +1062,8 @@ TextureImporter:
       name: Tileset Spring_43
       rect:
         serializedVersion: 2
-        x: 175
-        y: 144
+        x: 176
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -1084,8 +1084,8 @@ TextureImporter:
       name: Tileset Spring_44
       rect:
         serializedVersion: 2
-        x: 127
-        y: 128
+        x: 128
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1106,8 +1106,8 @@ TextureImporter:
       name: Tileset Spring_45
       rect:
         serializedVersion: 2
-        x: 143
-        y: 128
+        x: 144
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1128,8 +1128,8 @@ TextureImporter:
       name: Tileset Spring_46
       rect:
         serializedVersion: 2
-        x: 159
-        y: 128
+        x: 160
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1150,8 +1150,8 @@ TextureImporter:
       name: Tileset Spring_47
       rect:
         serializedVersion: 2
-        x: 175
-        y: 128
+        x: 176
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -1172,8 +1172,8 @@ TextureImporter:
       name: Tileset Spring_48
       rect:
         serializedVersion: 2
-        x: 127
-        y: 112
+        x: 128
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -1194,8 +1194,8 @@ TextureImporter:
       name: Tileset Spring_49
       rect:
         serializedVersion: 2
-        x: 143
-        y: 112
+        x: 144
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -1216,8 +1216,8 @@ TextureImporter:
       name: Tileset Spring_50
       rect:
         serializedVersion: 2
-        x: 159
-        y: 112
+        x: 176
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -1238,8 +1238,8 @@ TextureImporter:
       name: Tileset Spring_51
       rect:
         serializedVersion: 2
-        x: 175
-        y: 112
+        x: 128
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -1260,8 +1260,8 @@ TextureImporter:
       name: Tileset Spring_52
       rect:
         serializedVersion: 2
-        x: 127
-        y: 96
+        x: 144
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -1282,8 +1282,8 @@ TextureImporter:
       name: Tileset Spring_53
       rect:
         serializedVersion: 2
-        x: 143
-        y: 96
+        x: 160
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -1304,8 +1304,8 @@ TextureImporter:
       name: Tileset Spring_54
       rect:
         serializedVersion: 2
-        x: 159
-        y: 96
+        x: 176
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -1326,8 +1326,8 @@ TextureImporter:
       name: Tileset Spring_55
       rect:
         serializedVersion: 2
-        x: 175
-        y: 96
+        x: 128
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -1348,8 +1348,8 @@ TextureImporter:
       name: Tileset Spring_56
       rect:
         serializedVersion: 2
-        x: 127
-        y: 80
+        x: 144
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -1370,8 +1370,8 @@ TextureImporter:
       name: Tileset Spring_57
       rect:
         serializedVersion: 2
-        x: 143
-        y: 80
+        x: 160
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -1392,8 +1392,8 @@ TextureImporter:
       name: Tileset Spring_58
       rect:
         serializedVersion: 2
-        x: 159
-        y: 80
+        x: 176
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -1414,8 +1414,8 @@ TextureImporter:
       name: Tileset Spring_59
       rect:
         serializedVersion: 2
-        x: 175
-        y: 80
+        x: 128
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -1436,8 +1436,8 @@ TextureImporter:
       name: Tileset Spring_60
       rect:
         serializedVersion: 2
-        x: 127
-        y: 64
+        x: 144
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -1458,8 +1458,8 @@ TextureImporter:
       name: Tileset Spring_61
       rect:
         serializedVersion: 2
-        x: 143
-        y: 64
+        x: 160
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -1480,8 +1480,8 @@ TextureImporter:
       name: Tileset Spring_62
       rect:
         serializedVersion: 2
-        x: 159
-        y: 64
+        x: 176
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -1502,8 +1502,8 @@ TextureImporter:
       name: Tileset Spring_63
       rect:
         serializedVersion: 2
-        x: 175
-        y: 64
+        x: 128
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1524,8 +1524,8 @@ TextureImporter:
       name: Tileset Spring_64
       rect:
         serializedVersion: 2
-        x: 127
-        y: 48
+        x: 144
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1546,8 +1546,8 @@ TextureImporter:
       name: Tileset Spring_65
       rect:
         serializedVersion: 2
-        x: 143
-        y: 48
+        x: 176
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1568,8 +1568,8 @@ TextureImporter:
       name: Tileset Spring_66
       rect:
         serializedVersion: 2
-        x: 159
-        y: 48
+        x: 128
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1590,8 +1590,8 @@ TextureImporter:
       name: Tileset Spring_67
       rect:
         serializedVersion: 2
-        x: 175
-        y: 48
+        x: 144
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1612,8 +1612,8 @@ TextureImporter:
       name: Tileset Spring_68
       rect:
         serializedVersion: 2
-        x: 127
-        y: 32
+        x: 160
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1634,8 +1634,8 @@ TextureImporter:
       name: Tileset Spring_69
       rect:
         serializedVersion: 2
-        x: 143
-        y: 32
+        x: 176
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1656,8 +1656,8 @@ TextureImporter:
       name: Tileset Spring_70
       rect:
         serializedVersion: 2
-        x: 159
-        y: 32
+        x: 128
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -1678,8 +1678,8 @@ TextureImporter:
       name: Tileset Spring_71
       rect:
         serializedVersion: 2
-        x: 175
-        y: 32
+        x: 144
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -1700,8 +1700,8 @@ TextureImporter:
       name: Tileset Spring_72
       rect:
         serializedVersion: 2
-        x: 127
-        y: 16
+        x: 160
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -1722,8 +1722,8 @@ TextureImporter:
       name: Tileset Spring_73
       rect:
         serializedVersion: 2
-        x: 143
-        y: 16
+        x: 176
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -1736,138 +1736,6 @@ TextureImporter:
       bones: []
       spriteID: 70684465954f08945aabd4819ff65b8f
       internalID: 1570831178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset Spring_74
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3880a76696026a64db5d399119ae53a5
-      internalID: 52595934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset Spring_75
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64e7a7ef9bf1aa841b14656d5820299a
-      internalID: 804484151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset Spring_76
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e6388f1a2bc423408d3f9e6de11bbd9
-      internalID: 9548803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset Spring_77
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78c71ed8f6e1a2f40b694d3a12883199
-      internalID: 2063664165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset Spring_78
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbf5b278855f28a45b01fcc7215db226
-      internalID: 176715567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset Spring_79
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fcd8c077f795674590c6a701dfd92f8
-      internalID: -856496085
       vertices: []
       indices: 
       edges: []
@@ -1886,7 +1754,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":127.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":128.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Tileset Spring_0: -5137759655197879367
       Tileset Spring_1: 843936780
@@ -1960,12 +1828,6 @@ TextureImporter:
       Tileset Spring_71: 1029404376
       Tileset Spring_72: -306199736
       Tileset Spring_73: 1570831178
-      Tileset Spring_74: 52595934
-      Tileset Spring_75: 804484151
-      Tileset Spring_76: 9548803
-      Tileset Spring_77: 2063664165
-      Tileset Spring_78: 176715567
-      Tileset Spring_79: -856496085
       Tileset Spring_8: 1067225876
       Tileset Spring_9: 2037648588
   mipmapLimitGroupName: 
