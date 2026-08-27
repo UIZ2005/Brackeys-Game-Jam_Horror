@@ -27,6 +27,21 @@ public class Player : MonoBehaviour
     public void OnMove(InputValue value)
     {
         movement = value.Get<Vector2>();
+
+        if(movement != Vector2.zero)
+        {
+            if (movement.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else
+            {
+                spriteRenderer.flipX = false;
+            }
+            animator.SetFloat("XInput", movement.x);
+            animator.SetFloat("YInput", movement.y);
+        }
+
     }
 
     private void FixedUpdate()
@@ -34,81 +49,15 @@ public class Player : MonoBehaviour
         Vector2 direction = movement.normalized;
 
         rb.linearVelocity = direction * speed;
-
-        UpdateAnimation(direction);
+        if (movement != Vector2.zero)
+        {
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
+            
     }
 
-    private void UpdateAnimation(Vector2 direction)
-    {
-        bool isWalking = direction != Vector2.zero;
-
-        // Activar/desactivar caminar
-        animator.SetBool("IsWalking", isWalking);
-
-        if (!isWalking)
-            return;
-
-        float x = direction.x;
-        float y = direction.y;
-
-        // Resetear direcciones
-        animator.SetBool("WalkUp", false);
-        animator.SetBool("WalkDown", false);
-        animator.SetBool("WalkRight", false);
-        animator.SetBool("WalkUpRight", false);
-
-        // -------------------------
-        // ARRIBA
-        // -------------------------
-        if (y > 0.5f && Mathf.Abs(x) < 0.5f)
-        {
-            animator.SetBool("WalkUp", true);
-            spriteRenderer.flipX = false;
-        }
-
-        // -------------------------
-        // ABAJO
-        // -------------------------
-        else if (y < -0.5f && Mathf.Abs(x) < 0.5f)
-        {
-            animator.SetBool("WalkDown", true);
-            spriteRenderer.flipX = false;
-        }
-
-        // -------------------------
-        // DIAGONAL ARRIBA DERECHA
-        // -------------------------
-        else if (x > 0.5f && y > 0.5f)
-        {
-            animator.SetBool("WalkUpRight", true);
-            spriteRenderer.flipX = false;
-        }
-
-        // -------------------------
-        // DIAGONAL ARRIBA IZQUIERDA
-        // -------------------------
-        else if (x < -0.5f && y > 0.5f)
-        {
-            animator.SetBool("WalkUpRight", true);
-            spriteRenderer.flipX = true;
-        }
-
-        // -------------------------
-        // DERECHA
-        // -------------------------
-        else if (x > 0.5f)
-        {
-            animator.SetBool("WalkRight", true);
-            spriteRenderer.flipX = false;
-        }
-
-        // -------------------------
-        // IZQUIERDA
-        // -------------------------
-        else if (x < -0.5f)
-        {
-            animator.SetBool("WalkRight", true);
-            spriteRenderer.flipX = true;
-        }
-    }
 }
