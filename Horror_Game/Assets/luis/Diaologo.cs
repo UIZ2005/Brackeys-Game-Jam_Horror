@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class Diaologo : MonoBehaviour
 {
-    
+    [Header("Sistema de dialogos")]
     public GameObject dialogoMark;
     public GameObject dialogopanel;
     public TextMeshProUGUI texto;
@@ -18,9 +18,16 @@ public class Diaologo : MonoBehaviour
     private int LineIndex;
     private Player player;
 
+
+    [Header("Sistema de pistas")]
+    public bool ispista=false;
+    public string pistaTexto;
+    private pistaslist pistamanager;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        pistamanager = FindAnyObjectByType<pistaslist>();
         player = FindAnyObjectByType<Player>();
     }
 
@@ -104,6 +111,12 @@ public class Diaologo : MonoBehaviour
             dialogoMark.SetActive(true);
             player.quieto = false;
 
+
+            if (ispista)
+            {
+                pistamanager.agregarPista(pistaTexto);
+                ispista = false;
+            }
         }
     }
 }
