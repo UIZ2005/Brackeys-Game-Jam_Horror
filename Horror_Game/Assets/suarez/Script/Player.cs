@@ -13,6 +13,12 @@ public class Player : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
+    [Header("Object")]
+    [SerializeField] private GameObject linterna;
+
+    private Diaologo NPCActual;
+    public bool quieto = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,6 +32,7 @@ public class Player : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
+        if (quieto) return;
         movement = value.Get<Vector2>();
 
         if(movement != Vector2.zero)
@@ -43,9 +50,30 @@ public class Player : MonoBehaviour
         }
 
     }
+    public void OnAttack(InputValue value)
+    {
+        if (linterna.activeSelf)
+        {
+            linterna.SetActive(false);
+        }
+        else
+        {
+            linterna.SetActive(true);
+        }
+    }
+    public void OnInteract(InputValue value)
+    {
+        if (NPCActual != null)
+        {
+            NPCActual.interact();
+        }
+    }
+
 
     private void FixedUpdate()
     {
+        if (quieto) return;
+
         Vector2 direction = movement.normalized;
 
         rb.linearVelocity = direction * speed;
@@ -59,5 +87,21 @@ public class Player : MonoBehaviour
         }
             
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("NPC"))
+        {
+            NPCActual = collision.GetComponent<Diaologo>();
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("NPC"))
+        {
+            NPCActual = null;
+        }
+    }
+
 
 }
