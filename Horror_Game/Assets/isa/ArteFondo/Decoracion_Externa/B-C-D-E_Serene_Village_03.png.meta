@@ -100,7 +100,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -114,7 +114,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -138,7 +138,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -183,8 +183,8 @@ TextureImporter:
         y: 393
         width: 88
         height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5165546, y: 0.488109}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,7 +206,7 @@ TextureImporter:
         width: 86
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,8 +227,8 @@ TextureImporter:
         y: 393
         width: 140
         height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5488486, y: 0.38146204}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,7 +250,7 @@ TextureImporter:
         width: 83
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,8 +271,8 @@ TextureImporter:
         y: 383
         width: 86
         height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.579693}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: B-C-D-E_Serene_Village_03_5
       rect:
         serializedVersion: 2
-        x: 267
+        x: 272
         y: 255
-        width: 138
-        height: 130
+        width: 129
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,12 +311,12 @@ TextureImporter:
       name: B-C-D-E_Serene_Village_03_6
       rect:
         serializedVersion: 2
-        x: 429
-        y: 383
-        width: 83
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 270
+        y: 319
+        width: 132
+        height: 67
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.18471698}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,8 +337,8 @@ TextureImporter:
         y: 319
         width: 86
         height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.5874084}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,9 +358,9 @@ TextureImporter:
         x: 101
         y: 199
         width: 86
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 119
+      alignment: 9
+      pivot: {x: 0.51364666, y: 0.16960554}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,12 +377,12 @@ TextureImporter:
       name: B-C-D-E_Serene_Village_03_9
       rect:
         serializedVersion: 2
-        x: 447
-        y: 319
-        width: 52
-        height: 56
+        x: 138
+        y: 64
+        width: 103
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -401,10 +401,10 @@ TextureImporter:
         serializedVersion: 2
         x: 5
         y: 9
-        width: 114
-        height: 296
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 109
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5014865, y: 0.46798334}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -421,12 +421,12 @@ TextureImporter:
       name: B-C-D-E_Serene_Village_03_11
       rect:
         serializedVersion: 2
-        x: 191
-        y: 287
-        width: 26
-        height: 30
+        x: 106
+        y: 128
+        width: 102
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -448,7 +448,7 @@ TextureImporter:
         width: 52
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -465,12 +465,12 @@ TextureImporter:
       name: B-C-D-E_Serene_Village_03_13
       rect:
         serializedVersion: 2
-        x: 191
-        y: 255
-        width: 26
-        height: 30
+        x: 12
+        y: 128
+        width: 76
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -484,37 +484,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_03_14
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 223
-        width: 26
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c31d7876d47e3040800000000000000
-      internalID: 4629265931476734921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: B-C-D-E_Serene_Village_03_15
       rect:
         serializedVersion: 2
-        x: 269
-        y: 137
+        x: 267
+        y: 138
         width: 136
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -536,7 +514,7 @@ TextureImporter:
         width: 83
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -550,50 +528,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_03_17
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 63
-        width: 144
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4043fbd62c0293820800000000000000
-      internalID: 2898383854626616324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_03_18
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 127
-        width: 83
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ef70e2dc89d1e180800000000000000
-      internalID: -9087743374200373279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: B-C-D-E_Serene_Village_03_19
       rect:
         serializedVersion: 2
@@ -602,7 +536,7 @@ TextureImporter:
         width: 134
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -616,28 +550,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B-C-D-E_Serene_Village_03_20
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 63
-        width: 52
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a1d3c1c8c5586570800000000000000
-      internalID: 8460106220748132777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: B-C-D-E_Serene_Village_03_21
       rect:
         serializedVersion: 2
@@ -645,8 +557,8 @@ TextureImporter:
         y: 0
         width: 52
         height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.55407774, y: 0.60226643}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -659,11 +571,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: B-C-D-E_Serene_Village_03_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 394
+        width: 140
+        height: 53
+      alignment: 9
+      pivot: {x: 0.49250206, y: 0.5918435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1f7618ff7279448a81de92bfa526c2
+      internalID: 4629265931476734921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B-C-D-E_Serene_Village_03_17
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 253
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.35094255, y: 0.22750378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8515215568774ac4fa143916f1d701d1
+      internalID: 2898383854626616324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B-C-D-E_Serene_Village_03_18
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 224
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.4105657, y: 0.17704152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b1e7b75f9e1df4a944022bc0ec81f5
+      internalID: -9087743374200373279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B-C-D-E_Serene_Village_03_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 288
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.3520382, y: 0.16461995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab52dcfe746a76143a66e7c7b9ed8d0c
+      internalID: 8460106220748132777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 918c94ba15a19124e8536b84da40aa72
     internalID: 0
     vertices: []
     indices: 

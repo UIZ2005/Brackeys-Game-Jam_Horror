@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: f9fc40c349c6689458f65354ef2838e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6244057326125348525
+    second: graveyard_tileset_32x32_0
+  - first:
+      213: -5241923179030457667
+    second: graveyard_tileset_32x32_1
+  - first:
+      213: 6298560621447047959
+    second: graveyard_tileset_32x32_2
+  - first:
+      213: -2075384019509723847
+    second: graveyard_tileset_32x32_3
+  - first:
+      213: -2100903598680393315
+    second: graveyard_tileset_32x32_4
+  - first:
+      213: -7096301699626535335
+    second: graveyard_tileset_32x32_5
+  - first:
+      213: -7990367983329301926
+    second: graveyard_tileset_32x32_6
+  - first:
+      213: 1331732394577358196
+    second: graveyard_tileset_32x32_7
+  - first:
+      213: 2858809323002697242
+    second: graveyard_tileset_32x32_8
+  - first:
+      213: 6657393174567444415
+    second: graveyard_tileset_32x32_9
+  - first:
+      213: -5096424736902556904
+    second: graveyard_tileset_32x32_10
+  - first:
+      213: 4986706022710120328
+    second: graveyard_tileset_32x32_11
+  - first:
+      213: 6919881704912517049
+    second: graveyard_tileset_32x32_12
+  - first:
+      213: -2342805587662013990
+    second: graveyard_tileset_32x32_13
+  - first:
+      213: 1806126094256332558
+    second: graveyard_tileset_32x32_14
+  - first:
+      213: -9168062756570497161
+    second: graveyard_tileset_32x32_15
+  - first:
+      213: 8699681863479081087
+    second: graveyard_tileset_32x32_16
+  - first:
+      213: -3430649954872900046
+    second: graveyard_tileset_32x32_17
+  - first:
+      213: -1985845001502747747
+    second: graveyard_tileset_32x32_18
+  - first:
+      213: 4260621972945702028
+    second: graveyard_tileset_32x32_19
+  - first:
+      213: -907267363291326611
+    second: graveyard_tileset_32x32_20
+  - first:
+      213: 6152280411717350641
+    second: graveyard_tileset_32x32_21
+  - first:
+      213: -2858165557941437204
+    second: graveyard_tileset_32x32_22
+  - first:
+      213: -4846581266950181767
+    second: graveyard_tileset_32x32_23
+  - first:
+      213: 8371270278435467322
+    second: graveyard_tileset_32x32_24
+  - first:
+      213: 5368597013800018173
+    second: graveyard_tileset_32x32_25
+  - first:
+      213: -5326629390505115792
+    second: graveyard_tileset_32x32_26
+  - first:
+      213: -2385599397431392091
+    second: graveyard_tileset_32x32_27
+  - first:
+      213: 5037007075972018472
+    second: graveyard_tileset_32x32_28
+  - first:
+      213: -5269086828939213275
+    second: graveyard_tileset_32x32_29
+  - first:
+      213: 3809328769346140759
+    second: graveyard_tileset_32x32_30
+  - first:
+      213: 7431670951613402316
+    second: graveyard_tileset_32x32_31
+  - first:
+      213: -2134995429779736692
+    second: graveyard_tileset_32x32_32
+  - first:
+      213: 4623106376754611092
+    second: graveyard_tileset_32x32_33
+  - first:
+      213: -4946116698282877862
+    second: graveyard_tileset_32x32_34
+  - first:
+      213: 3670806296885801918
+    second: graveyard_tileset_32x32_35
+  - first:
+      213: -6305615277551782787
+    second: graveyard_tileset_32x32_36
+  - first:
+      213: -3936313358761765847
+    second: graveyard_tileset_32x32_37
+  - first:
+      213: -2302130030972451075
+    second: graveyard_tileset_32x32_38
+  - first:
+      213: 3254533887438238786
+    second: graveyard_tileset_32x32_39
+  - first:
+      213: 3451790623217929324
+    second: graveyard_tileset_32x32_40
+  - first:
+      213: -2498875515986249455
+    second: graveyard_tileset_32x32_41
+  - first:
+      213: -1004750563826372948
+    second: graveyard_tileset_32x32_42
+  - first:
+      213: 8898834155985740594
+    second: graveyard_tileset_32x32_43
+  - first:
+      213: -7235921931940144600
+    second: graveyard_tileset_32x32_44
+  - first:
+      213: 3065151133707960739
+    second: graveyard_tileset_32x32_45
+  - first:
+      213: -3074020785028143490
+    second: graveyard_tileset_32x32_46
+  - first:
+      213: 8250113461021982384
+    second: graveyard_tileset_32x32_47
+  - first:
+      213: -7666778401828505835
+    second: graveyard_tileset_32x32_48
+  - first:
+      213: -6365650406859175030
+    second: graveyard_tileset_32x32_49
+  - first:
+      213: 7019762326755694105
+    second: graveyard_tileset_32x32_50
+  - first:
+      213: 2445829093498978461
+    second: graveyard_tileset_32x32_51
+  - first:
+      213: 9024731199911636201
+    second: graveyard_tileset_32x32_52
+  - first:
+      213: 6260692279787910470
+    second: graveyard_tileset_32x32_53
+  - first:
+      213: -3084045638838498067
+    second: graveyard_tileset_32x32_54
+  - first:
+      213: 4926104924920349636
+    second: graveyard_tileset_32x32_55
+  - first:
+      213: -3422347048928004699
+    second: graveyard_tileset_32x32_56
+  - first:
+      213: 8677610352625125467
+    second: graveyard_tileset_32x32_57
+  - first:
+      213: 3312159725883795333
+    second: graveyard_tileset_32x32_58
+  - first:
+      213: -6752480621135232603
+    second: graveyard_tileset_32x32_59
+  - first:
+      213: -2321160640797848618
+    second: graveyard_tileset_32x32_60
+  - first:
+      213: 6023536249207630469
+    second: graveyard_tileset_32x32_61
+  - first:
+      213: 8434811596930602409
+    second: graveyard_tileset_32x32_62
+  - first:
+      213: 8857687524042198798
+    second: graveyard_tileset_32x32_63
+  - first:
+      213: -3892192178745839123
+    second: graveyard_tileset_32x32_64
+  - first:
+      213: 3720606669059221678
+    second: graveyard_tileset_32x32_65
+  - first:
+      213: -3189201960364440596
+    second: graveyard_tileset_32x32_66
+  - first:
+      213: 7691574971051766633
+    second: graveyard_tileset_32x32_67
+  - first:
+      213: 4351439774860328486
+    second: graveyard_tileset_32x32_68
+  - first:
+      213: -7769336047710277658
+    second: graveyard_tileset_32x32_69
+  - first:
+      213: 8667095938548218837
+    second: graveyard_tileset_32x32_70
+  - first:
+      213: 1471291182523086746
+    second: graveyard_tileset_32x32_71
+  - first:
+      213: 6454162706315253616
+    second: graveyard_tileset_32x32_72
+  - first:
+      213: 1011611312110725485
+    second: graveyard_tileset_32x32_73
+  - first:
+      213: 432206426008765195
+    second: graveyard_tileset_32x32_74
+  - first:
+      213: 4201864409145230803
+    second: graveyard_tileset_32x32_75
+  - first:
+      213: 4523095606610089118
+    second: graveyard_tileset_32x32_76
+  - first:
+      213: -7355144729259731205
+    second: graveyard_tileset_32x32_77
+  - first:
+      213: -403940426929887882
+    second: graveyard_tileset_32x32_78
+  - first:
+      213: 7204056970241708923
+    second: graveyard_tileset_32x32_79
+  - first:
+      213: 3585033441903498745
+    second: graveyard_tileset_32x32_80
+  - first:
+      213: 5215016036393460522
+    second: graveyard_tileset_32x32_81
+  - first:
+      213: 5200770524939718401
+    second: graveyard_tileset_32x32_82
+  - first:
+      213: -7884746165491552613
+    second: graveyard_tileset_32x32_83
+  - first:
+      213: 8993146407452581914
+    second: graveyard_tileset_32x32_84
+  - first:
+      213: 1215702503040395543
+    second: graveyard_tileset_32x32_85
+  - first:
+      213: -3370160190853042334
+    second: graveyard_tileset_32x32_86
+  - first:
+      213: 1189568250860012980
+    second: graveyard_tileset_32x32_87
+  - first:
+      213: -966839600945589642
+    second: graveyard_tileset_32x32_88
+  - first:
+      213: 5754701302634547301
+    second: graveyard_tileset_32x32_89
+  - first:
+      213: 823471264355891983
+    second: graveyard_tileset_32x32_90
+  - first:
+      213: -2297198249092838755
+    second: graveyard_tileset_32x32_91
+  - first:
+      213: 7016172767359215285
+    second: graveyard_tileset_32x32_92
+  - first:
+      213: 8451857745246116018
+    second: graveyard_tileset_32x32_93
+  - first:
+      213: -6014325907188546146
+    second: graveyard_tileset_32x32_94
+  - first:
+      213: 2485173558140838451
+    second: graveyard_tileset_32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 352
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aa00967a28c1190800000000000000
+      internalID: -7990367983329301926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 320
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a169622cee78ca720800000000000000
+      internalID: 2858809323002697242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 320
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfd334e1dfc36c50800000000000000
+      internalID: 6657393174567444415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 320
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813d86c24bcd549b0800000000000000
+      internalID: -5096424736902556904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 320
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f00faf4b6543540800000000000000
+      internalID: 4986706022710120328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 320
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7f80d5fbb580060800000000000000
+      internalID: 6919881704912517049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 320
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9fa911bbeac7fd0800000000000000
+      internalID: -2342805587662013990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 320
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f70245f7f74c080800000000000000
+      internalID: -9168062756570497161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 256
+        width: 22
+        height: 10
+      alignment: 9
+      pivot: {x: 0.52229446, y: 1.1740386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc81861b59922760800000000000000
+      internalID: 7431670951613402316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 64
+        width: 22
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5161986, y: 0.80779195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b731fec45a3f9f360800000000000000
+      internalID: 7204056970241708923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 32
+        width: 22
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5080996, y: 0.8239895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b508948502328010800000000000000
+      internalID: 1189568250860012980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyard_tileset_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 22
+        height: 11
+      alignment: 9
+      pivot: {x: 0.49189967, y: 0.85638994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332ad222f2c1d7220800000000000000
+      internalID: 2485173558140838451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ee6096f6636b3d742b040b97faf1879c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":23.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      graveyard_tileset_32x32_0: 6244057326125348525
+      graveyard_tileset_32x32_1: -5241923179030457667
+      graveyard_tileset_32x32_10: -5096424736902556904
+      graveyard_tileset_32x32_11: 4986706022710120328
+      graveyard_tileset_32x32_12: 6919881704912517049
+      graveyard_tileset_32x32_13: -2342805587662013990
+      graveyard_tileset_32x32_14: 1806126094256332558
+      graveyard_tileset_32x32_15: -9168062756570497161
+      graveyard_tileset_32x32_16: 8699681863479081087
+      graveyard_tileset_32x32_17: -3430649954872900046
+      graveyard_tileset_32x32_18: -1985845001502747747
+      graveyard_tileset_32x32_19: 4260621972945702028
+      graveyard_tileset_32x32_2: 6298560621447047959
+      graveyard_tileset_32x32_20: -907267363291326611
+      graveyard_tileset_32x32_21: 6152280411717350641
+      graveyard_tileset_32x32_22: -2858165557941437204
+      graveyard_tileset_32x32_23: -4846581266950181767
+      graveyard_tileset_32x32_24: 8371270278435467322
+      graveyard_tileset_32x32_25: 5368597013800018173
+      graveyard_tileset_32x32_26: -5326629390505115792
+      graveyard_tileset_32x32_27: -2385599397431392091
+      graveyard_tileset_32x32_28: 5037007075972018472
+      graveyard_tileset_32x32_29: -5269086828939213275
+      graveyard_tileset_32x32_3: -2075384019509723847
+      graveyard_tileset_32x32_30: 3809328769346140759
+      graveyard_tileset_32x32_31: 7431670951613402316
+      graveyard_tileset_32x32_32: -2134995429779736692
+      graveyard_tileset_32x32_33: 4623106376754611092
+      graveyard_tileset_32x32_34: -4946116698282877862
+      graveyard_tileset_32x32_35: 3670806296885801918
+      graveyard_tileset_32x32_36: -6305615277551782787
+      graveyard_tileset_32x32_37: -3936313358761765847
+      graveyard_tileset_32x32_38: -2302130030972451075
+      graveyard_tileset_32x32_39: 3254533887438238786
+      graveyard_tileset_32x32_4: -2100903598680393315
+      graveyard_tileset_32x32_40: 3451790623217929324
+      graveyard_tileset_32x32_41: -2498875515986249455
+      graveyard_tileset_32x32_42: -1004750563826372948
+      graveyard_tileset_32x32_43: 8898834155985740594
+      graveyard_tileset_32x32_44: -7235921931940144600
+      graveyard_tileset_32x32_45: 3065151133707960739
+      graveyard_tileset_32x32_46: -3074020785028143490
+      graveyard_tileset_32x32_47: 8250113461021982384
+      graveyard_tileset_32x32_48: -7666778401828505835
+      graveyard_tileset_32x32_49: -6365650406859175030
+      graveyard_tileset_32x32_5: -7096301699626535335
+      graveyard_tileset_32x32_50: 7019762326755694105
+      graveyard_tileset_32x32_51: 2445829093498978461
+      graveyard_tileset_32x32_52: 9024731199911636201
+      graveyard_tileset_32x32_53: 6260692279787910470
+      graveyard_tileset_32x32_54: -3084045638838498067
+      graveyard_tileset_32x32_55: 4926104924920349636
+      graveyard_tileset_32x32_56: -3422347048928004699
+      graveyard_tileset_32x32_57: 8677610352625125467
+      graveyard_tileset_32x32_58: 3312159725883795333
+      graveyard_tileset_32x32_59: -6752480621135232603
+      graveyard_tileset_32x32_6: -7990367983329301926
+      graveyard_tileset_32x32_60: -2321160640797848618
+      graveyard_tileset_32x32_61: 6023536249207630469
+      graveyard_tileset_32x32_62: 8434811596930602409
+      graveyard_tileset_32x32_63: 8857687524042198798
+      graveyard_tileset_32x32_64: -3892192178745839123
+      graveyard_tileset_32x32_65: 3720606669059221678
+      graveyard_tileset_32x32_66: -3189201960364440596
+      graveyard_tileset_32x32_67: 7691574971051766633
+      graveyard_tileset_32x32_68: 4351439774860328486
+      graveyard_tileset_32x32_69: -7769336047710277658
+      graveyard_tileset_32x32_7: 1331732394577358196
+      graveyard_tileset_32x32_70: 8667095938548218837
+      graveyard_tileset_32x32_71: 1471291182523086746
+      graveyard_tileset_32x32_72: 6454162706315253616
+      graveyard_tileset_32x32_73: 1011611312110725485
+      graveyard_tileset_32x32_74: 432206426008765195
+      graveyard_tileset_32x32_75: 4201864409145230803
+      graveyard_tileset_32x32_76: 4523095606610089118
+      graveyard_tileset_32x32_77: -7355144729259731205
+      graveyard_tileset_32x32_78: -403940426929887882
+      graveyard_tileset_32x32_79: 7204056970241708923
+      graveyard_tileset_32x32_8: 2858809323002697242
+      graveyard_tileset_32x32_80: 3585033441903498745
+      graveyard_tileset_32x32_81: 5215016036393460522
+      graveyard_tileset_32x32_82: 5200770524939718401
+      graveyard_tileset_32x32_83: -7884746165491552613
+      graveyard_tileset_32x32_84: 8993146407452581914
+      graveyard_tileset_32x32_85: 1215702503040395543
+      graveyard_tileset_32x32_86: -3370160190853042334
+      graveyard_tileset_32x32_87: 1189568250860012980
+      graveyard_tileset_32x32_88: -966839600945589642
+      graveyard_tileset_32x32_89: 5754701302634547301
+      graveyard_tileset_32x32_9: 6657393174567444415
+      graveyard_tileset_32x32_90: 823471264355891983
+      graveyard_tileset_32x32_91: -2297198249092838755
+      graveyard_tileset_32x32_92: 7016172767359215285
+      graveyard_tileset_32x32_93: 8451857745246116018
+      graveyard_tileset_32x32_94: -6014325907188546146
+      graveyard_tileset_32x32_95: 2485173558140838451
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
