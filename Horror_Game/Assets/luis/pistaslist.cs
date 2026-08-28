@@ -48,12 +48,15 @@ public class pistaslist : MonoBehaviour
 
     public void abir()
     {
-        animator.SetBool("open", true);
+        if (animator.GetBool("open"))
+        {
+            animator.SetBool("open", false);
+        }
+        else
+        {
+            animator.SetBool("open", true);
+        }
+        
     }
-    public void cerrar()
-    {
-        animator.SetBool("open", false);
-    }
-
 
 }

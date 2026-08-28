@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
     [Header("Object")]
     [SerializeField] private GameObject linterna;
+    [SerializeField] private pistaslist pistamanager;
 
     private Diaologo NPCActual;
     public bool quieto = false;
@@ -35,7 +36,7 @@ public class Player : MonoBehaviour
         if (quieto) return;
         movement = value.Get<Vector2>();
 
-        if(movement != Vector2.zero)
+        if (movement != Vector2.zero)
         {
             if (movement.x < 0)
             {
@@ -67,6 +68,11 @@ public class Player : MonoBehaviour
         {
             NPCActual.interact();
         }
+    }
+    public void OnNext(InputValue value)
+    {
+        if (quieto) return;
+        pistamanager.abir();
     }
 
 

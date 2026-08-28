@@ -2,12 +2,15 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class Diaologo : MonoBehaviour
 {
     [Header("Sistema de dialogos")]
     public GameObject dialogoMark;
     public GameObject dialogopanel;
+    [SerializeField] private GameObject caradialogo;
+    public Sprite Cara;
     public TextMeshProUGUI texto;
     [SerializeField, TextArea(4, 6)] private string[] lineasDialogo;
 
@@ -79,6 +82,10 @@ public class Diaologo : MonoBehaviour
         didDialagoStart = true;
         dialogopanel.SetActive(true);
         dialogoMark.SetActive(false);
+        if (caradialogo != null && Cara != null)
+        {
+            caradialogo.GetComponent<Image>().sprite = Cara;
+        }
         LineIndex = 0;
         StartCoroutine(ShowLine());
     }
