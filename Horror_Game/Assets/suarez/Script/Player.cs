@@ -33,11 +33,8 @@ public class Player : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
-        if (quieto) 
-        {
-            linterna.SetActive(false);
-            return;
-        }
+        if (quieto) return;
+
 
         movement = value.Get<Vector2>();
         linterna.SetActive(true);
@@ -59,6 +56,8 @@ public class Player : MonoBehaviour
     }
     public void OnAttack(InputValue value)
     {
+        if (quieto) return;
+        
         if (linterna.activeSelf)
         {
             linterna.SetActive(false);
