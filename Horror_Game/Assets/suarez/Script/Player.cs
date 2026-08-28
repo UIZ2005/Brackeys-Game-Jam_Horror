@@ -33,8 +33,14 @@ public class Player : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
-        if (quieto) return;
+        if (quieto) 
+        {
+            linterna.SetActive(false);
+            return;
+        }
+
         movement = value.Get<Vector2>();
+        linterna.SetActive(true);
 
         if (movement != Vector2.zero)
         {
@@ -107,6 +113,16 @@ public class Player : MonoBehaviour
         {
             NPCActual = null;
         }
+    }
+
+    public void ActivarQuieto()
+    {
+        quieto = true;
+    }
+
+    public void DesactivarQuieto()
+    {
+        quieto = false;
     }
 
 
