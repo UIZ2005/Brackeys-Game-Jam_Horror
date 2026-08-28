@@ -36,7 +36,7 @@ public class pistaslist : MonoBehaviour
             yield return new WaitForSecondsRealtime(typingtext);
         }
 
-        yield return new WaitForSecondsRealtime(10f);
+        yield return new WaitForSecondsRealtime(5f);
         animator.SetBool("open", false);
 
         yield return null;
