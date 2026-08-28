@@ -4,7 +4,7 @@ using UnityEngine;
 public class Teletransporte : MonoBehaviour
 {
     public GameObject salida;
-    public GameObject anim;
+    public Animator anim;
     public float tiempoTransicion=1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,17 +22,18 @@ public class Teletransporte : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.transform.position = salida.transform.position;
+            
+            StartCoroutine(teleport(collision.gameObject));
         }
     }
     IEnumerator teleport(GameObject player)
     {
-        anim.SetActive(true);
+        anim.SetBool("enter", true);
         yield return new WaitForSecondsRealtime(0.5f);
         player.transform.position = salida.transform.position;
 
         yield return new WaitForSecondsRealtime(tiempoTransicion);
-        player.GetComponent<Player>().quieto = false;
+        anim.SetBool("enter", false);
 
 
         yield return null;
