@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Diaologo : MonoBehaviour
 {
     [Header("Sistema de dialogos")]
+    public string nombreNpc;
     public GameObject dialogoMark;
     public GameObject dialogopanel;
     [SerializeField] private GameObject caradialogo;
