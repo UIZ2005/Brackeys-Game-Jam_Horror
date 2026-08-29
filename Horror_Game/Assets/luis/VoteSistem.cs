@@ -1,3 +1,5 @@
+using JetBrains.Annotations;
+using TMPro;
 using UnityEngine;
 
 public class VoteSistem : MonoBehaviour
@@ -5,7 +7,12 @@ public class VoteSistem : MonoBehaviour
     public string culpableSeleccionado;
     private pistaslist pistas;
     [SerializeField] private string votoPredeterminado = "bruno";
-    Diaologo[] npcs;
+    private Diaologo[] npcs;
+    public GameObject votacion;
+    public GameObject resultados;
+    public TextMeshProUGUI textovoto;
+    public GameObject[] caras;
+    public TextMeshProUGUI Confidence;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,6 +42,10 @@ public class VoteSistem : MonoBehaviour
 
         string next = "samuel";
 
+        pistas.abir();
+        pistas.lista.text = "";
+        pistas.numpistas = 0;
+
         if (culpableSeleccionado == next)
         {
             votoPueblo = votoPredeterminado;
@@ -42,9 +53,24 @@ public class VoteSistem : MonoBehaviour
 
         if (culpableSeleccionado == culpableReal)
         {
-
+            //pantalla de victoria?
         }
 
+        votacion.SetActive(false);
+        resultados.SetActive(true);
+
+        Confidence.text = "Confidence level: " + Confidence.text;
+        textovoto.text = "The people chose\n" + votoPueblo;
+
+        Debug.Log("el pueblo ha votado por " + votoPueblo);
+
+        foreach (GameObject cara in caras)
+        {
+            if (cara.name.Equals(votoPueblo))
+            {
+                cara.SetActive(true);
+            }
+        }
 
         foreach (Diaologo npc in npcs)
         {
@@ -55,24 +81,29 @@ public class VoteSistem : MonoBehaviour
         }
 
     }
-    private void ocultarNpc()
-    {
-
-    }
-
     private int ObtenerNivelConfianza()
     {
         int cantidad = pistas.numpistas;
 
         if (cantidad == 0)
+        {
+            Confidence.text = " Low";
             return 0;
+        }
 
         if (cantidad <= 2)
+        {
+            Confidence.text = " Medium";
             return 1;
+        }
 
         if (cantidad <= 4)
+        {
+            Confidence.text = " High";
             return 2;
+        }
 
+        Confidence.text = " High";
         return 3;
     }
     private string ObtenerVotoDelPueblo()
