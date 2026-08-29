@@ -8,6 +8,7 @@ public class pistaslist : MonoBehaviour
     public TextMeshProUGUI lista;
     private Animator animator;
     private float typingtext = 0.06f;
+    public int numpistas;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +23,7 @@ public class pistaslist : MonoBehaviour
 
     public void agregarPista(string pista)
     {
+        numpistas += 1;
         lista.text += "\n -";
         StartCoroutine(escribirpista(pista));
     }
