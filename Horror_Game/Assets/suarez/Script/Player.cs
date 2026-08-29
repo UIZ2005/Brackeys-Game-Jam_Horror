@@ -94,11 +94,17 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (quieto) return;
+        if (quieto)
+        {
+            rb.linearVelocity = Vector2.zero;
+            animator.SetBool("IsWalking", false);
+            return;
+        }
 
         Vector2 direction = movement.normalized;
 
         rb.linearVelocity = direction * speed;
+
         if (movement != Vector2.zero)
         {
             animator.SetBool("IsWalking", true);
@@ -107,7 +113,6 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("IsWalking", false);
         }
-            
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -128,6 +133,9 @@ public class Player : MonoBehaviour
     public void ActivarQuieto()
     {
         quieto = true;
+        movement = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        animator.SetBool("IsWalking", false);
     }
 
     public void DesactivarQuieto()
