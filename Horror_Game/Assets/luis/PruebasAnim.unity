@@ -6062,7 +6062,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1752453983}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -8348360321170094735, guid: 1abdd95e80d009c4ba10b2f9c901b2de, type: 3}
+  Cara: {fileID: 303123642463850092, guid: 2f4d392b168904741866269d7f5eec25, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - I... saw someone walking toward Gabriel's house this afternoon.
@@ -12345,7 +12345,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -4, z: 0}
@@ -12408,7 +12408,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: -1, z: 0}
@@ -12681,7 +12681,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 32, z: 0}
@@ -14321,7 +14321,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 957588770}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 5473063877929149607, guid: 242aaaa5189ed0643ad0f16c659b2a1f, type: 3}
+  Cara: {fileID: 4868846902312961616, guid: f1fa366016d074248a56d327b440fb80, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - ' Ayer todos me miraban como si yo hubiera matado a Gabriel. '
@@ -14750,7 +14750,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 760087912}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - Have you seen Samuel? I thought we'd have a drink today.
@@ -14959,7 +14959,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 655622167}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 2006340320750863142, guid: 98bdb44c2149d0f4b8b79f1a57fa5464, type: 3}
+  Cara: {fileID: -737684903646139153, guid: 4fbf44192525a104c8bb18354a14efd6, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Gabriel estuvo aqu\xED esta tarde. Estaba hablando con alguien, pero no alcanc\xE9
@@ -15247,7 +15247,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 2055031386}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "\xBFHaz visto a Samuel? Pense que beberiamos algo hoy "
@@ -15569,7 +15569,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1514283165}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 5473063877929149607, guid: 242aaaa5189ed0643ad0f16c659b2a1f, type: 3}
+  Cara: {fileID: 4868846902312961616, guid: f1fa366016d074248a56d327b440fb80, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'I found a piece of fabric near the body. It was caught on a branch. '
@@ -16015,7 +16015,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 813723876}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - That axe wasn't with me when Samuel was killed.
@@ -36525,7 +36525,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 2080624281}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -8348360321170094735, guid: 1abdd95e80d009c4ba10b2f9c901b2de, type: 3}
+  Cara: {fileID: 303123642463850092, guid: 2f4d392b168904741866269d7f5eec25, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Encontr\xE9 algo raro en una de mis entregas... una carta que no deber\xEDa
@@ -37667,7 +37667,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1338108647}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 2006340320750863142, guid: 98bdb44c2149d0f4b8b79f1a57fa5464, type: 3}
+  Cara: {fileID: -737684903646139153, guid: 4fbf44192525a104c8bb18354a14efd6, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'Ahora que lo pienso... Gabriel no estaba solo aquella tarde. '
@@ -37976,7 +37976,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 61060793}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 2006340320750863142, guid: 98bdb44c2149d0f4b8b79f1a57fa5464, type: 3}
+  Cara: {fileID: -737684903646139153, guid: 4fbf44192525a104c8bb18354a14efd6, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - Now that I think about it... Gabriel wasn't alone that afternoon.
@@ -38208,7 +38208,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 482816087}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 6029907470263214886, guid: 19d5d063ed4797e44962554e85891db7, type: 3}
+  Cara: {fileID: 7229178153557163114, guid: a4737d84ce795584fb6a801d504252ac, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'This is our last chance. Find the culprit before it''s too late.
@@ -38611,7 +38611,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 196875752}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'Esa hacha no estaba conmigo cuando mataron a Samuel. '
@@ -38843,7 +38843,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1268664655}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 5473063877929149607, guid: 242aaaa5189ed0643ad0f16c659b2a1f, type: 3}
+  Cara: {fileID: 4868846902312961616, guid: f1fa366016d074248a56d327b440fb80, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Yo no mat\xE9 a nadie. Solo hice mi trabajo. "
@@ -39075,7 +39075,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 195329706}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -745936084622323566, guid: 6021be37bf8ef7c42a5b42e5b3a4c726, type: 3}
+  Cara: {fileID: -8898824207074787086, guid: 432ab857c11758e40b9bcf925feba24c, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "La noche que muri\xF3 Gabriel, In\xE9s vino a preguntarme por sus heridas. "
@@ -136293,7 +136293,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1584249544}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 5473063877929149607, guid: 242aaaa5189ed0643ad0f16c659b2a1f, type: 3}
+  Cara: {fileID: 4868846902312961616, guid: f1fa366016d074248a56d327b440fb80, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Encontr\xE9 un pedazo de tela cerca del cuerpo. Estaba enganchado en una rama. "
@@ -139058,7 +139058,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 655833627}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -6062958262804532042, guid: 4d27a9228fb6d2644a6bdc262e60a23e, type: 3}
+  Cara: {fileID: 3841931496052244575, guid: 99247e5f49332fd4e99ae73d53df514f, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - Samuel was very nervous today. I saw him leave for home a little while ago.
@@ -139922,7 +139922,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 82342529}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 5473063877929149607, guid: 242aaaa5189ed0643ad0f16c659b2a1f, type: 3}
+  Cara: {fileID: 4868846902312961616, guid: f1fa366016d074248a56d327b440fb80, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - I didn't kill anyone. I was just doing my job.
@@ -160413,7 +160413,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1205540012}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 2006340320750863142, guid: 98bdb44c2149d0f4b8b79f1a57fa5464, type: 3}
+  Cara: {fileID: -737684903646139153, guid: 4fbf44192525a104c8bb18354a14efd6, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - Gabriel was here this afternoon. He was talking to someone, but I didn't get
@@ -160646,7 +160646,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1096761531}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -8348360321170094735, guid: 1abdd95e80d009c4ba10b2f9c901b2de, type: 3}
+  Cara: {fileID: 303123642463850092, guid: 2f4d392b168904741866269d7f5eec25, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - I found something strange in one of my deliveries... a letter that shouldn't
@@ -161061,7 +161061,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1600568946}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 5473063877929149607, guid: 242aaaa5189ed0643ad0f16c659b2a1f, type: 3}
+  Cara: {fileID: 4868846902312961616, guid: f1fa366016d074248a56d327b440fb80, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'Yesterday everyone looked at me as if I had killed Gabriel. '
@@ -161383,7 +161383,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1505972673}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -6062958262804532042, guid: 4d27a9228fb6d2644a6bdc262e60a23e, type: 3}
+  Cara: {fileID: 3841931496052244575, guid: 99247e5f49332fd4e99ae73d53df514f, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'It''s terrible what happened to Samuel... He was a nervous man, but he never
@@ -161616,7 +161616,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 678114584}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 6029907470263214886, guid: 19d5d063ed4797e44962554e85891db7, type: 3}
+  Cara: {fileID: 7229178153557163114, guid: a4737d84ce795584fb6a801d504252ac, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'No one could sleep last night. Everyone is scared. '
@@ -161935,8 +161935,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -666.54, y: -13.07002}
-  m_SizeDelta: {x: -1647.08, y: -54.94004}
+  m_AnchoredPosition: {x: -690.4272, y: 8.3788}
+  m_SizeDelta: {x: -1599.3053, y: -12.0423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128739663
 MonoBehaviour:
@@ -170756,7 +170756,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -14, y: -22, z: 0}
@@ -171722,7 +171722,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -9, y: -19, z: 0}
@@ -172331,7 +172331,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: -16, z: 0}
@@ -172730,7 +172730,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -15, z: 0}
@@ -172835,7 +172835,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -11, y: -15, z: 0}
@@ -172940,7 +172940,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: -14, z: 0}
@@ -173507,7 +173507,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -12, z: 0}
@@ -174788,7 +174788,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -1, z: 0}
@@ -175124,7 +175124,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 2, z: 0}
@@ -175271,7 +175271,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 3, z: 0}
@@ -175334,7 +175334,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 3, z: 0}
@@ -175439,7 +175439,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 4, z: 0}
@@ -176552,7 +176552,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -24, y: 13, z: 0}
@@ -176825,7 +176825,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 14, z: 0}
@@ -177455,7 +177455,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 20, z: 0}
@@ -177644,7 +177644,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: 22, z: 0}
@@ -177728,7 +177728,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 22, z: 0}
@@ -177770,7 +177770,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 23, z: 0}
@@ -177896,7 +177896,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: 25, z: 0}
@@ -178505,7 +178505,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -24, y: 30, z: 0}
@@ -178778,7 +178778,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 32, z: 0}
@@ -179156,7 +179156,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 35, z: 0}
@@ -180479,7 +180479,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 45, z: 0}
@@ -181319,7 +181319,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -181722,7 +181722,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 739672989}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 6029907470263214886, guid: 19d5d063ed4797e44962554e85891db7, type: 3}
+  Cara: {fileID: 7229178153557163114, guid: a4737d84ce795584fb6a801d504252ac, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Esta es nuestra \xFAltima oportunidad. Encuentre al culpable antes de que sea
@@ -182164,7 +182164,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1210921328}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "\xBFTe gusta mi hacha? Es vieja, pero nunca me ha fallado. "
@@ -190724,7 +190724,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: -23, z: 0}
@@ -191060,7 +191060,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -22, z: 0}
@@ -191648,7 +191648,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -20, z: 0}
@@ -191669,7 +191669,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -20, z: 0}
@@ -191753,7 +191753,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -11, y: -20, z: 0}
@@ -191858,7 +191858,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: -19, z: 0}
@@ -191879,7 +191879,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -19, z: 0}
@@ -192341,7 +192341,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -9, y: -18, z: 0}
@@ -192845,7 +192845,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: -16, z: 0}
@@ -193832,7 +193832,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: -12, z: 0}
@@ -194462,7 +194462,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -6, z: 0}
@@ -194483,7 +194483,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: -6, z: 0}
@@ -195155,7 +195155,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -14, y: -1, z: 0}
@@ -195701,7 +195701,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: 3, z: 0}
@@ -196079,7 +196079,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 6, z: 0}
@@ -196709,7 +196709,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 11, z: 0}
@@ -196730,7 +196730,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 11, z: 0}
@@ -197822,7 +197822,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 20, z: 0}
@@ -198473,7 +198473,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 26, z: 0}
@@ -198914,7 +198914,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 30, z: 0}
@@ -199313,7 +199313,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 34, z: 0}
@@ -199859,7 +199859,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: 38, z: 0}
@@ -200405,7 +200405,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: 43, z: 0}
@@ -200699,7 +200699,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -25, y: 45, z: 0}
@@ -201602,7 +201602,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -14, y: 48, z: 0}
@@ -201623,7 +201623,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: 48, z: 0}
@@ -201948,7 +201948,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1800348099}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -6062958262804532042, guid: 4d27a9228fb6d2644a6bdc262e60a23e, type: 3}
+  Cara: {fileID: 3841931496052244575, guid: 99247e5f49332fd4e99ae73d53df514f, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'Samuel estuvo muy nervioso hoy. Lo vi salir hacia su casa hace un rato. '
@@ -202179,7 +202179,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 2049898696}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -745936084622323566, guid: 6021be37bf8ef7c42a5b42e5b3a4c726, type: 3}
+  Cara: {fileID: -8898824207074787086, guid: 432ab857c11758e40b9bcf925feba24c, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - If you find anything strange, let me know. I don't want us to lose another life.
@@ -205205,7 +205205,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 548000471}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 6029907470263214886, guid: 19d5d063ed4797e44962554e85891db7, type: 3}
+  Cara: {fileID: 7229178153557163114, guid: a4737d84ce795584fb6a801d504252ac, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Gabriel era conocido por todos. Nunca escuch\xE9 que tuviera problemas con alguien. "
@@ -205492,7 +205492,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 415902068}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'Do you like my axe? It''s old, but it''s never let me down. '
@@ -207927,7 +207927,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 2026046569}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -6062958262804532042, guid: 4d27a9228fb6d2644a6bdc262e60a23e, type: 3}
+  Cara: {fileID: 3841931496052244575, guid: 99247e5f49332fd4e99ae73d53df514f, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Gabriel pas\xF3 por la escuela esta tarde. Parec\xEDa preocupado, pero no quiso
@@ -208160,7 +208160,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 790750964}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - I was working near the forest all afternoon. I didn't see anyone.
@@ -208623,7 +208623,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1625754911}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 6029907470263214886, guid: 19d5d063ed4797e44962554e85891db7, type: 3}
+  Cara: {fileID: 7229178153557163114, guid: a4737d84ce795584fb6a801d504252ac, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - Gabriel was known by everyone. I never heard that he had problems with anyone.
@@ -209218,7 +209218,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1934302608}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -745936084622323566, guid: 6021be37bf8ef7c42a5b42e5b3a4c726, type: 3}
+  Cara: {fileID: -8898824207074787086, guid: 432ab857c11758e40b9bcf925feba24c, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Si encuentra algo extra\xF1o, av\xEDseme. No quiero que perdamos otra vida. "
@@ -209732,7 +209732,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 264188404}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 2006340320750863142, guid: 98bdb44c2149d0f4b8b79f1a57fa5464, type: 3}
+  Cara: {fileID: -737684903646139153, guid: 4fbf44192525a104c8bb18354a14efd6, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - That bottle they found... it's from here. Gabriel was drinking with someone before
@@ -210174,7 +210174,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1878026567}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -745936084622323566, guid: 6021be37bf8ef7c42a5b42e5b3a4c726, type: 3}
+  Cara: {fileID: -8898824207074787086, guid: 432ab857c11758e40b9bcf925feba24c, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Revis\xE9 el cuerpo de Gabriel. No fue un accidente, alguien lo atac\xF3. "
@@ -212874,7 +212874,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1396247206}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -745936084622323566, guid: 6021be37bf8ef7c42a5b42e5b3a4c726, type: 3}
+  Cara: {fileID: -8898824207074787086, guid: 432ab857c11758e40b9bcf925feba24c, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - I examined Gabriel's body. It wasn't an accident. Someone attacked him.
@@ -219645,7 +219645,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -1, z: 0}
@@ -219834,7 +219834,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 29, z: 0}
@@ -224907,7 +224907,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 155793964}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -8348360321170094735, guid: 1abdd95e80d009c4ba10b2f9c901b2de, type: 3}
+  Cara: {fileID: 303123642463850092, guid: 2f4d392b168904741866269d7f5eec25, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'Yo... vi a alguien caminando hacia la casa de Gabriel esta tarde. '
@@ -226160,7 +226160,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 731729040}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -6062958262804532042, guid: 4d27a9228fb6d2644a6bdc262e60a23e, type: 3}
+  Cara: {fileID: 3841931496052244575, guid: 99247e5f49332fd4e99ae73d53df514f, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Qu\xE9 terrible lo de Samuel... era un hombre nervioso, pero nunca le hizo da\xF1o
@@ -226393,7 +226393,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1124639492}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 73579149495913794, guid: ed13af37b38d84f46b84a24c622f7f35, type: 3}
+  Cara: {fileID: -6936384880407196793, guid: 752897098e6107943a7cb3873d11bb6a, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - 'Estuve trabajando cerca del bosque toda la tarde. No vi a nadie. '
@@ -320297,7 +320297,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 859573732}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 2006340320750863142, guid: 98bdb44c2149d0f4b8b79f1a57fa5464, type: 3}
+  Cara: {fileID: -737684903646139153, guid: 4fbf44192525a104c8bb18354a14efd6, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Esa botella que encontraron... es de aqu\xED. Gabriel estuvo bebiendo con alguien
@@ -320820,7 +320820,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 216753465}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -6062958262804532042, guid: 4d27a9228fb6d2644a6bdc262e60a23e, type: 3}
+  Cara: {fileID: 3841931496052244575, guid: 99247e5f49332fd4e99ae73d53df514f, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - Gabriel stopped by the school this afternoon. He seemed worried, but he didn't
@@ -321053,7 +321053,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 2030833694}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: -745936084622323566, guid: 6021be37bf8ef7c42a5b42e5b3a4c726, type: 3}
+  Cara: {fileID: -8898824207074787086, guid: 432ab857c11758e40b9bcf925feba24c, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "The night Gabriel died, In\xE9s came to ask me about his wounds. "
@@ -322316,7 +322316,7 @@ MonoBehaviour:
   dialogoMark: {fileID: 1666246009}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
-  Cara: {fileID: 6029907470263214886, guid: 19d5d063ed4797e44962554e85891db7, type: 3}
+  Cara: {fileID: 7229178153557163114, guid: a4737d84ce795584fb6a801d504252ac, type: 3}
   texto: {fileID: 1980136210}
   lineasDialogo:
   - "Anoche nadie pudo dormir. Todos est\xE1n asustados. "
