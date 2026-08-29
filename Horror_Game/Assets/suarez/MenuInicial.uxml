@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/suarez/Boton_UI_Toolkit.uss?fileID=7433441132597879392&amp;guid=ca1ce4194dac0444a8d8cac38382354f&amp;type=3#Boton_UI_Toolkit"/>
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/suarez/Menu%20Brackeys%20Gamejam.png?fileID=2800000&amp;guid=4146bb4148e0e8f479a27f3ef9ee0c09&amp;type=3#Menu Brackeys Gamejam&quot;);">
+        <ui:Button text="START" name="StartButton" class="BotonUIStart"/>
+        <ui:Button text="CREDITS" name="CreditsButton" class="BotonUIStart" style="translate: 0 133px;"/>
+    </ui:VisualElement>
+</ui:UXML>
