@@ -1,0 +1,41 @@
+:root {
+}
+
+.BotonUIStart {
+    position: absolute;
+    top: 721px;
+    left: 1084px;
+    width: 392px;
+    height: 114px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-image: url("project://database/Assets/suarez/CanvasUI/Boton%20UI.png?fileID=2800000&guid=77a521934f8075d469387bcd00022fcc&type=3#Boton UI");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(55, 55, 55, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-font-definition: url("project://database/Assets/suarez/Font/thug-life.regular.ttf?fileID=12800000&guid=5b947d4af74e9414298cfff55c5e6e2b&type=3#thug-life.regular");
+    -unity-font-style: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1.5px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    transition-duration: 0.2s;
+}
+
+.BotonUIStart:hover {
+    scale: 1.2 1.2;
+    background-color: rgba(103, 101, 101, 0);
+    background-image: url("project://database/Assets/suarez/CanvasUI/Boton%20UI.png?fileID=2800000&guid=77a521934f8075d469387bcd00022fcc&type=3#Boton UI");
+    -unity-background-image-tint-color: rgb(101, 99, 99);
+}
+
+
+
+
+
+
