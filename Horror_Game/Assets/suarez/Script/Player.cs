@@ -43,12 +43,16 @@ public class Player : MonoBehaviour
             minimapa.SetActive(true);
         }
     }
+    
     public void OnMove(InputValue value)
     {
-        if (quieto) return;
-
-
         movement = value.Get<Vector2>();
+
+        if (quieto)
+        {
+            movement = Vector2.zero;
+            return;
+        }
 
         if (movement != Vector2.zero)
         {
@@ -60,11 +64,12 @@ public class Player : MonoBehaviour
             {
                 spriteRenderer.flipX = false;
             }
+
             animator.SetFloat("XInput", movement.x);
             animator.SetFloat("YInput", movement.y);
         }
-
     }
+
     public void OnAttack(InputValue value)
     {
         if (quieto) return;
@@ -141,6 +146,8 @@ public class Player : MonoBehaviour
     public void DesactivarQuieto()
     {
         quieto = false;
+        movement = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
     }
 
 
