@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
     [Header("Object")]
     [SerializeField] private GameObject linterna;
+    [SerializeField] private GameObject minimapa;
     [SerializeField] private pistaslist pistamanager;
 
     private Diaologo NPCActual;
@@ -31,13 +32,23 @@ public class Player : MonoBehaviour
             spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    public void OnMap(InputValue value)
+    {
+        if (minimapa.activeSelf)
+        {
+            minimapa.SetActive(false);
+        }
+        else
+        {
+            minimapa.SetActive(true);
+        }
+    }
     public void OnMove(InputValue value)
     {
         if (quieto) return;
 
 
         movement = value.Get<Vector2>();
-        linterna.SetActive(true);
 
         if (movement != Vector2.zero)
         {
