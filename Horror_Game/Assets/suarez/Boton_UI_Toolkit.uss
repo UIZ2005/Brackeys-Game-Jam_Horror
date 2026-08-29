@@ -11,7 +11,7 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    background-image: url("project://database/Assets/suarez/Boton%20UI.png?fileID=2800000&guid=77a521934f8075d469387bcd00022fcc&type=3#Boton UI");
+    background-image: url("project://database/Assets/suarez/CanvasUI/Boton%20UI.png?fileID=2800000&guid=77a521934f8075d469387bcd00022fcc&type=3#Boton UI");
     -unity-background-image-tint-color: rgb(255, 255, 255);
     background-color: rgba(55, 55, 55, 0);
     border-top-width: 0;
@@ -27,11 +27,15 @@
     transition-duration: 0.2s;
 }
 
-
-
 .BotonUIStart:hover {
     scale: 1.2 1.2;
     background-color: rgba(103, 101, 101, 0);
-    background-image: url("project://database/Assets/suarez/Boton%20UI.png?fileID=2800000&guid=77a521934f8075d469387bcd00022fcc&type=3#Boton UI");
+    background-image: url("project://database/Assets/suarez/CanvasUI/Boton%20UI.png?fileID=2800000&guid=77a521934f8075d469387bcd00022fcc&type=3#Boton UI");
     -unity-background-image-tint-color: rgb(101, 99, 99);
 }
+
+
+
+
+
+
