@@ -3481,7 +3481,7 @@ Transform:
   m_GameObject: {fileID: 158856443}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3536,7 +3536,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3949,7 +3949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &200218922
 Transform:
   m_ObjectHideFlags: 0
@@ -15547,7 +15547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &335423365
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15635,7 +15635,7 @@ Transform:
   m_GameObject: {fileID: 344793061}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15690,7 +15690,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16976,7 +16976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &441097871
 Transform:
   m_ObjectHideFlags: 0
@@ -17609,7 +17609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &462995335
 Transform:
   m_ObjectHideFlags: 0
@@ -17851,7 +17851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &471509235
 Transform:
   m_ObjectHideFlags: 0
@@ -17885,10 +17885,10 @@ MonoBehaviour:
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
   Cara: {fileID: 0}
-  texto: {fileID: 1820087832}
+  texto: {fileID: 315010211}
   lineasDialogo:
-  - "Encontr\xE9 lo que buscabas.\r\n\r\nSi todav\xEDa quieres saber la verdad, ven
-    a la escuela esta noche.\r\n\r\nNo se lo digas a nadie."
+  - "Querido Samuel,\n\nEncontr\xE9 lo que buscabas.\r\n\r\nSi todav\xEDa quieres
+    saber la verdad, ven a la escuela esta noche.\r\n\r\nNo se lo digas a nadie."
   ispista: 0
   pistaTexto: 
 --- !u!61 &471509237
@@ -18159,7 +18159,7 @@ Transform:
   m_GameObject: {fileID: 505294361}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -18214,7 +18214,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18243,7 +18243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &518353253
 Transform:
   m_ObjectHideFlags: 0
@@ -18701,7 +18701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &550384052
 Transform:
   m_ObjectHideFlags: 0
@@ -18735,11 +18735,11 @@ MonoBehaviour:
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
   Cara: {fileID: 0}
-  texto: {fileID: 1820087832}
+  texto: {fileID: 711580992}
   lineasDialogo:
-  - " Los ni\xF1os dejaron algunos libros en la plaza despu\xE9s de la clase.\r\n
-    \r\n Los recog\xED y los dej\xE9 junto a la puerta de la escuela.\r\n \r\n \u2014
-    Marta\r\n"
+  - "Querida Ines,\n\n Los ni\xF1os dejaron algunos libros en la plaza despu\xE9s
+    de la clase.\r\n \r\n Los recog\xED y los dej\xE9 junto a la puerta de la escuela.\r\n
+    \r\n \u2014 Marta\r\n"
   ispista: 0
   pistaTexto: 
 --- !u!61 &550384054
@@ -19385,7 +19385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &617134021
 Transform:
   m_ObjectHideFlags: 0
@@ -37419,7 +37419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &667140631
 Transform:
   m_ObjectHideFlags: 0
@@ -37642,7 +37642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &674583593
 Transform:
   m_ObjectHideFlags: 0
@@ -37676,10 +37676,11 @@ MonoBehaviour:
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
   Cara: {fileID: 0}
-  texto: {fileID: 1820087832}
+  texto: {fileID: 315010211}
   lineasDialogo:
-  - "Necesito hablar contigo sobre Gabriel.\r\n\r\nHay algo que no coincide con lo
-    que todos est\xE1n diciendo.\r\n\r\nNo quiero hablar de esto en p\xFAblico.\r\n"
+  - "Querida Clara,\n\nNecesito hablar contigo sobre Gabriel.\r\n\r\nHay algo que
+    no coincide con lo que todos est\xE1n diciendo.\r\n\r\nNo quiero hablar de esto
+    en p\xFAblico.\r\n"
   ispista: 1
   pistaTexto: Alguien anonimo esta indagando acerca de las heridas de Gabriel.
 --- !u!61 &674583595
@@ -37985,7 +37986,7 @@ Transform:
   m_GameObject: {fileID: 702468898}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -38040,7 +38041,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -38586,7 +38587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &720402399
 Transform:
   m_ObjectHideFlags: 0
@@ -39422,7 +39423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &746141608
 Transform:
   m_ObjectHideFlags: 0
@@ -39765,7 +39766,7 @@ Transform:
   m_GameObject: {fileID: 782066250}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -39820,7 +39821,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -48032,7 +48033,7 @@ Transform:
   m_GameObject: {fileID: 874254833}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -48087,7 +48088,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -139167,7 +139168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &932421358
 Transform:
   m_ObjectHideFlags: 0
@@ -139378,7 +139379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &939127940
 Transform:
   m_ObjectHideFlags: 0
@@ -146112,7 +146113,7 @@ Transform:
   m_GameObject: {fileID: 1039908094}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -146167,7 +146168,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -146606,7 +146607,7 @@ Transform:
   m_GameObject: {fileID: 1059737624}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -146661,7 +146662,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -146697,7 +146698,7 @@ Transform:
   m_GameObject: {fileID: 1070739163}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -146752,7 +146753,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -164573,7 +164574,7 @@ Transform:
   m_GameObject: {fileID: 1104773336}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -164628,7 +164629,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184998,7 +184999,7 @@ Transform:
   m_GameObject: {fileID: 1145499933}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -185053,7 +185054,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -185089,7 +185090,7 @@ Transform:
   m_GameObject: {fileID: 1146184702}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -185144,7 +185145,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -185646,7 +185647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1168111471
 Transform:
   m_ObjectHideFlags: 0
@@ -185680,11 +185681,11 @@ MonoBehaviour:
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
   Cara: {fileID: 0}
-  texto: {fileID: 1820087832}
+  texto: {fileID: 315010211}
   lineasDialogo:
-  - "Necesito hablar contigo sobre lo que ocurri\xF3 aquella tarde.\r\n\r\nNo puedo
-    seguir guardando esto por m\xE1s tiempo.\r\n\r\nNos vemos despu\xE9s de clases.
-    Es importante que vengas sola."
+  - "Querida ines\n\nNecesito hablar contigo sobre lo que ocurri\xF3 aquella tarde.\r\n\r\nNo
+    puedo seguir guardando esto por m\xE1s tiempo.\r\n\r\nNos vemos despu\xE9s de
+    clases. Es importante que vengas sola."
   ispista: 0
   pistaTexto: 
 --- !u!61 &1168111473
@@ -206288,7 +206289,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1226074024
 Transform:
   m_ObjectHideFlags: 0
@@ -208713,7 +208714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1268093559
 Transform:
   m_ObjectHideFlags: 0
@@ -208747,10 +208748,10 @@ MonoBehaviour:
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
   Cara: {fileID: 0}
-  texto: {fileID: 1820087832}
+  texto: {fileID: 315010211}
   lineasDialogo:
-  - "S\xE9 que viste algo aquella noche.\r\n\r\nNo vuelvas a hablar de eso con nadie.\r\n\r\nMantente
-    alejado de la casa de Gabriel."
+  - "Querido Tomas,\n\nS\xE9 que viste algo aquella noche.\r\n\r\nNo vuelvas a hablar
+    de eso con nadie.\r\n\r\nMantente alejado de la casa de Gabriel."
   ispista: 0
   pistaTexto: 
 --- !u!61 &1268093561
@@ -209049,7 +209050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1288274827
 Transform:
   m_ObjectHideFlags: 0
@@ -210533,7 +210534,7 @@ Transform:
   m_GameObject: {fileID: 1404596926}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -210588,7 +210589,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -210761,7 +210762,7 @@ Transform:
   m_GameObject: {fileID: 1501777827}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -210816,7 +210817,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -214011,7 +214012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1586746221
 Transform:
   m_ObjectHideFlags: 0
@@ -214045,9 +214046,9 @@ MonoBehaviour:
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
   Cara: {fileID: 0}
-  texto: {fileID: 1820087832}
+  texto: {fileID: 315010211}
   lineasDialogo:
-  - "Dijiste que viste a Gabriel hablando con alguien aquella tarde.\r\n\r\nNecesito
+  - "Querida Marta,\n\nDijiste que viste a Gabriel hablando con alguien aquella tarde.\r\n\r\nNecesito
     saber qui\xE9n era.\r\n\r\nPi\xE9nsalo bien antes de responder.\r\n\r\nNo quiero
     que cometas el mismo error que los dem\xE1s."
   ispista: 0
@@ -215108,7 +215109,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1641852371
 Transform:
   m_ObjectHideFlags: 0
@@ -215142,10 +215143,11 @@ MonoBehaviour:
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
   Cara: {fileID: 0}
-  texto: {fileID: 1820087832}
+  texto: {fileID: 1864056444}
   lineasDialogo:
-  - "El \xE1rbol que cortaste junto al r\xEDo finalmente cay\xF3.\r\n\r\nLa pr\xF3xima
-    vez av\xEDsame antes de cortar uno tan cerca del camino.\r\n\r\n\u2014 El\xEDas"
+  - "Querido Tomas,\n\nEl \xE1rbol que cortaste junto al r\xEDo finalmente cay\xF3.\r\n\r\nLa
+    pr\xF3xima vez av\xEDsame antes de cortar uno tan cerca del camino.\r\n\r\n\u2014
+    El\xEDas"
   ispista: 0
   pistaTexto: 
 --- !u!61 &1641852373
@@ -217526,7 +217528,7 @@ Transform:
   m_GameObject: {fileID: 1653177238}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -217581,7 +217583,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -218461,7 +218463,7 @@ Transform:
   m_GameObject: {fileID: 1711845060}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -218516,7 +218518,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -232310,7 +232312,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -232329,7 +232331,7 @@ Transform:
   m_GameObject: {fileID: 1898897597}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -328057,7 +328059,7 @@ Transform:
   m_GameObject: {fileID: 2044453208}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -328112,7 +328114,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -328969,7 +328971,7 @@ Transform:
   m_GameObject: {fileID: 2082653887}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -329024,7 +329026,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -330155,7 +330157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2120376680
 Transform:
   m_ObjectHideFlags: 0
@@ -330381,7 +330383,7 @@ Transform:
   m_GameObject: {fileID: 2125953256}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.77003664, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -330436,7 +330438,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fd4cedb1935dc6f4ca58fd721a101332, type: 3}
+  m_Sprite: {fileID: 1646375367856145251, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
