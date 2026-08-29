@@ -118,6 +118,7 @@ public class Diaologo : MonoBehaviour
             dialogopanel.SetActive(false);
             dialogoMark.SetActive(true);
             player.quieto = false;
+            texto.text = "";
 
 
             if (ispista)
