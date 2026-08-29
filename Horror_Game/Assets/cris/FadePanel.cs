@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FadePanel : MonoBehaviour
 {
-    [SerializeField] private float fadeDuration = 1.5f;
+    [SerializeField] private float fadeDuration = 0.6f;
 
     private CanvasGroup canvasGroup;
     private Coroutine currentFadeCoroutine;
@@ -25,10 +25,12 @@ public class FadePanel : MonoBehaviour
 
     public void FadeOut()
     {
+
         if (currentFadeCoroutine != null)
             StopCoroutine(currentFadeCoroutine);
 
         currentFadeCoroutine = StartCoroutine(Fade(canvasGroup.alpha, 0f, true));
+
     }
 
     private IEnumerator Fade(float startAlpha, float targetAlpha, bool deactivateAtEnd)
