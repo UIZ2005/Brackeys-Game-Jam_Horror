@@ -119,6 +119,85 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &4487977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4487978}
+  - component: {fileID: 4487980}
+  - component: {fileID: 4487979}
+  m_Layer: 5
+  m_Name: Titulo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4487978
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4487977}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.40055385, y: 0.56775886, z: 0.56775886}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1672858227}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.8977, y: 231.27}
+  m_SizeDelta: {x: 520.4418, y: 117.2081}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4487979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4487977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3283019, g: 0.014247027, b: 0.014247027, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5b947d4af74e9414298cfff55c5e6e2b, type: 3}
+    m_FontSize: 58
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 68
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Clue List
+--- !u!222 &4487980
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4487977}
+  m_CullTransparentMesh: 1
 --- !u!1 &55842010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,6 +2742,81 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &76509802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76509803}
+  - component: {fileID: 76509805}
+  - component: {fileID: 76509804}
+  m_Layer: 5
+  m_Name: arrow (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &76509803
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76509802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.40055388, y: 0.56775886, z: 0.56775886}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1672858227}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -220.3, y: 245.3}
+  m_SizeDelta: {x: -317.687, y: -500.2437}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &76509804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76509802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 2159386081190661618, guid: 5d161ff5b816e2545924d58c21df7ffe, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &76509805
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76509802}
+  m_CullTransparentMesh: 1
 --- !u!1 &82342529
 GameObject:
   m_ObjectHideFlags: 0
@@ -3599,6 +3753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1104773336}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -6131,6 +6286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1752453983}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -12270,7 +12426,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -5, z: 0}
@@ -12543,7 +12699,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -1, z: 0}
@@ -14390,6 +14546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 957588770}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -14947,6 +15104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 760087912}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -15107,6 +15265,81 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &363258869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 363258870}
+  - component: {fileID: 363258872}
+  - component: {fileID: 363258871}
+  m_Layer: 5
+  m_Name: wqw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &363258870
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363258869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.2593985, y: 2.1250641, z: 1.563812}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 794680975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -724, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &363258871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363258869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7660377, g: 0.7327946, b: 0.7327946, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6470460504253458178, guid: 139486410e6a8c54e98d3d168b2f0ff4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &363258872
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363258869}
+  m_CullTransparentMesh: 1
 --- !u!1 &371112770
 GameObject:
   m_ObjectHideFlags: 0
@@ -15156,6 +15389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 655622167}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -15444,6 +15678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2055031386}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -15766,6 +16001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1514283165}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -15974,6 +16210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 782066250}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -16212,6 +16449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 813723876}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -16421,6 +16659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2082653887}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -16661,6 +16900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1070739163}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -17203,6 +17443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1898897597}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -17353,6 +17594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 702468898}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -17822,6 +18064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2044453208}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -35465,6 +35708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1059737624}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -35684,6 +35928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 158856443}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -36490,6 +36735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1039908094}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -36722,6 +36968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2080624281}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -37324,6 +37571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1653177238}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -37864,6 +38112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1338108647}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -38056,6 +38305,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1980136209}
+  - {fileID: 363258870}
   - {fileID: 1128739662}
   m_Father: {fileID: 1852178486}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -38077,15 +38327,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.73333335}
+  m_Color: {r: 0.6679245, g: 0.63389814, b: 0.63389814, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -5989185641101304266, guid: 945f86412f9038e44ae716cca22e4c71, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -38173,6 +38423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 61060793}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -38405,6 +38656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 482816087}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -38808,6 +39060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 196875752}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -39040,6 +39293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1268664655}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -39272,6 +39526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 195329706}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -136490,6 +136745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1584249544}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -136698,6 +136954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1145499933}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -136908,6 +137165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 505294361}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -139255,6 +139513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 655833627}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -140119,6 +140378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 82342529}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -140328,6 +140588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1983227669}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -143087,8 +143348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.8598633, y: 10.655029}
-  m_SizeDelta: {x: -72.32004, y: -112.30999}
+  m_AnchoredPosition: {x: 3.1616821, y: -22.481201}
+  m_SizeDelta: {x: -84.3629, y: -124.9019}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040061959
 MonoBehaviour:
@@ -160610,6 +160871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1205540012}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -160843,6 +161105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1096761531}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -161258,6 +161521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1600568946}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -161580,6 +161844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1505972673}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -161849,6 +162114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 678114584}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -162164,14 +162430,14 @@ RectTransform:
   m_GameObject: {fileID: 1128739661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4861287, y: 0.4861287, z: 0.4861287}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 794680975}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -690.4272, y: 8.3788}
+  m_AnchoredPosition: {x: -720, y: 3}
   m_SizeDelta: {x: -1599.3053, y: -12.0423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128739663
@@ -170824,7 +171090,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: -22, z: 0}
@@ -170866,7 +171132,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: -22, z: 0}
@@ -171055,7 +171321,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -11, y: -22, z: 0}
@@ -171601,7 +171867,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: -20, z: 0}
@@ -172000,7 +172266,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: -18, z: 0}
@@ -172294,7 +172560,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: -17, z: 0}
@@ -172630,7 +172896,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -16, z: 0}
@@ -173197,7 +173463,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -14, z: 0}
@@ -173701,7 +173967,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -12, z: 0}
@@ -173911,7 +174177,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -10, z: 0}
@@ -175864,7 +176130,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 5, z: 0}
@@ -176725,7 +176991,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 12, z: 0}
@@ -176788,7 +177054,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -24, y: 13, z: 0}
@@ -177082,7 +177348,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 15, z: 0}
@@ -178111,7 +178377,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 25, z: 0}
@@ -178741,7 +179007,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -24, y: 30, z: 0}
@@ -178909,7 +179175,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: 31, z: 0}
@@ -179266,7 +179532,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 34, z: 0}
@@ -179686,7 +179952,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 38, z: 0}
@@ -180232,7 +180498,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 42, z: 0}
@@ -180463,7 +180729,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 44, z: 0}
@@ -180547,7 +180813,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: 44, z: 0}
@@ -180883,7 +181149,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 46, z: 0}
@@ -180988,7 +181254,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -24, y: 47, z: 0}
@@ -181534,7 +181800,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -12, y: 48, z: 0}
@@ -181955,6 +182221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 739672989}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -182164,6 +182431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 344793061}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -182397,6 +182665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1210921328}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -191863,7 +192132,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: -20, z: 0}
@@ -193732,7 +194001,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: -13, z: 0}
@@ -195727,7 +195996,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 2, z: 0}
@@ -196084,7 +196353,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: 4, z: 0}
@@ -199402,7 +199671,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 32, z: 0}
@@ -199444,7 +199713,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 33, z: 0}
@@ -199528,7 +199797,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: 34, z: 0}
@@ -199990,7 +200259,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: 37, z: 0}
@@ -200368,7 +200637,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 41, z: 0}
@@ -200410,7 +200679,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 41, z: 0}
@@ -201691,7 +201960,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 48, z: 0}
@@ -202181,6 +202450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1800348099}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -202412,6 +202682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2049898696}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -202802,6 +203073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1404596926}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -204513,14 +204785,14 @@ RectTransform:
   m_GameObject: {fileID: 1257814605}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.11, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1672858227}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -204, y: 227}
+  m_AnchoredPosition: {x: -206, y: 244.7}
   m_SizeDelta: {x: -317.687, y: -500.2437}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1257814607
@@ -204536,15 +204808,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.5176471, g: 0.21176472, b: 0.015686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -204609,6 +204881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1146184702}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -204944,6 +205217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 874254833}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -205438,6 +205712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 548000471}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -205725,6 +206000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 415902068}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -208160,6 +208436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2026046569}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -208393,6 +208670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 790750964}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -208856,6 +209134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1625754911}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -209156,6 +209435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1711845060}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -209451,6 +209731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1934302608}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -209965,6 +210246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 264188404}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -210175,6 +210457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1501777827}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -210407,6 +210690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1878026567}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -212747,10 +213031,12 @@ RectTransform:
   m_GameObject: {fileID: 1672858226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.04, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1257814606}
+  - {fileID: 4487978}
+  - {fileID: 76509803}
   - {fileID: 1040061958}
   m_Father: {fileID: 1852178486}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -212779,8 +213065,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 4518138914392341543, guid: 5d161ff5b816e2545924d58c21df7ffe, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -212810,6 +213096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::pistaslist
   lista: {fileID: 1040061959}
+  numpistas: 0
 --- !u!95 &1672858231
 Animator:
   serializedVersion: 7
@@ -213107,6 +213394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1396247206}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -225141,6 +225429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 155793964}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -226394,6 +226683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 731729040}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -226627,6 +226917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1124639492}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -320531,6 +320822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 859573732}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -320814,8 +321106,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dccbc4de289d2d44da49e2aa9937ceb1, type: 2}
+  m_sharedMaterial: {fileID: 5737579088410203081, guid: dccbc4de289d2d44da49e2aa9937ceb1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -320839,8 +321131,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 36.31
+  m_fontSizeBase: 36.31
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -321054,6 +321346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 216753465}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -321287,6 +321580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2030833694}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -321495,6 +321789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1102977184}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
@@ -322550,6 +322845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 1666246009}
   dialogopanel: {fileID: 794680974}
   caradialogo: {fileID: 1128739661}
@@ -324070,6 +324366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  nombreNpc: 
   dialogoMark: {fileID: 2125953256}
   dialogopanel: {fileID: 335423364}
   caradialogo: {fileID: 0}
