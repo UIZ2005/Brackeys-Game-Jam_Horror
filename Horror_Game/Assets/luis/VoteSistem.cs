@@ -4,14 +4,12 @@ public class VoteSistem : MonoBehaviour
 {
     public string culpableSeleccionado;
     private pistaslist pistas;
-    [SerializeField] private string votoPredeterminado = "Bruno";
-    Diaologo[] npcs = FindObjectsByType<Diaologo>(
-    FindObjectsInactive.Include,
-    FindObjectsSortMode.None
-);
+    [SerializeField] private string votoPredeterminado = "bruno";
+    Diaologo[] npcs;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        npcs = FindObjectsByType<Diaologo>(FindObjectsInactive.Include,FindObjectsSortMode.None);
         pistas = FindAnyObjectByType<pistaslist>();
     }
 
