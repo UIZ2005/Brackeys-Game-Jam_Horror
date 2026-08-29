@@ -12,6 +12,7 @@ TagManager:
   - Player
   - Water
   - UI
+  - luz
   - 
   - 
   - 
@@ -36,8 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - minimapa
   m_SortingLayers:
   - name: Default
     uniqueID: 0
