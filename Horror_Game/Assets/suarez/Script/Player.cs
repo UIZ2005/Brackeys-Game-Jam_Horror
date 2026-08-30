@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
 
     public void OnMap(InputValue value)
     {
-        audioManager.seleccionAudio(3);
+        if(audioManager!=null) audioManager.seleccionAudio(3);
         if (minimapa.activeSelf)
         {
             minimapa.SetActive(false);
@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
     
     public void OnMove(InputValue value)
     {
-        audioManager.seleccionAudio(2);
+        if (audioManager != null) audioManager.seleccionAudio(2);
         movement = value.Get<Vector2>();
 
         if (quieto)
@@ -77,7 +77,7 @@ public class Player : MonoBehaviour
 
     public void OnAttack(InputValue value)
     {
-        audioManager.seleccionAudio(3);
+        if (audioManager != null) audioManager.seleccionAudio(3);
         if (quieto) return;
         
         if (linterna.activeSelf)
@@ -91,7 +91,7 @@ public class Player : MonoBehaviour
     }
     public void OnInteract(InputValue value)
     {
-        audioManager.seleccionAudio(3);
+        if (audioManager != null) audioManager.seleccionAudio(3);
         if (NPCActual != null)
         {
             NPCActual.interact();
