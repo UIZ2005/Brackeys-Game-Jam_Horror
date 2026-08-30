@@ -128,7 +128,7 @@ public class VoteSistem : MonoBehaviour
     {
         tituloni.text = "Night " + N.ToString();
         titulo.SetActive(true);
-        yield return new WaitForSeconds(1.1f);
+        yield return new WaitForSeconds(1.5f);
         titulo.SetActive(false);
     }
     IEnumerator canvasGamewin()
