@@ -188,9 +188,9 @@ public class VoteSistem : MonoBehaviour
                 return votoPredeterminado;
 
             case 1:
-                // El pueblo todavía confía poco en el jugador
+                // El pueblo todavï¿½a confï¿½a poco en el jugador
                 int prob = Random.Range(0, 100);
-                if (prob > 50)
+                if (prob > 85)
                 {
                     return culpableSeleccionado;
                 }
@@ -203,7 +203,7 @@ public class VoteSistem : MonoBehaviour
             case 2:
 
                 int prob2 = Random.Range(0, 100);
-                if (prob2<85)
+                if (prob2<80)
                 {
                     return culpableSeleccionado;
                 }
@@ -213,7 +213,7 @@ public class VoteSistem : MonoBehaviour
                 }
 
             case 3:
-                // El pueblo confía bastante
+                // El pueblo confï¿½a bastante
                 return culpableSeleccionado;
         }
 
