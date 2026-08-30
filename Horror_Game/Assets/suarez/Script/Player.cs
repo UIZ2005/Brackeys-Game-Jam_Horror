@@ -91,13 +91,15 @@ public class Player : MonoBehaviour
     }
     public void OnInteract(InputValue value)
     {
-        if (audioManager != null) audioManager.seleccionAudio(3);
+        
         if (NPCActual != null)
         {
+            if (audioManager != null) audioManager.seleccionAudio(3);
             NPCActual.interact();
         }
         else if (ObjetoActual != null)
         {
+            if (audioManager != null) audioManager.seleccionAudio(3);
             ObjetoActual.Interactuar();
         }
     }
