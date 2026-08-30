@@ -19,8 +19,11 @@ public class VoteSistem : MonoBehaviour
     private GameManager game;
     private GameObject caratemp;
     public GameObject win;
+    public GameObject titulo;
+    public TextMeshProUGUI tituloni;
 
     public GameObject[] botones;
+    private int N=1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,6 +31,7 @@ public class VoteSistem : MonoBehaviour
         player = FindAnyObjectByType<Player>();
         npcs = FindObjectsByType<Diaologo>(FindObjectsInactive.Include,FindObjectsSortMode.None);
         pistas = FindAnyObjectByType<pistaslist>();
+        StartCoroutine(Titulos());
     }
 
     // Update is called once per frame
@@ -112,7 +116,20 @@ public class VoteSistem : MonoBehaviour
        
        votoPredeterminado = "tomas";
 
+        N++;
+        
 
+    }
+    public void starttitulo()
+    {
+        StartCoroutine(Titulos());
+    }
+    IEnumerator Titulos()
+    {
+        tituloni.text = "Night " + N.ToString();
+        titulo.SetActive(true);
+        yield return new WaitForSeconds(1.1f);
+        titulo.SetActive(false);
     }
     IEnumerator canvasGamewin()
     {
