@@ -28,7 +28,9 @@ public class DialogoUnico : MonoBehaviour
     [Header("Sonido")]
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip sonido;
+
     [SerializeField] private GameObject cuerpo;
+    [SerializeField] private GameObject tp;
 
     [SerializeField]
     private float duracionSonido = 1f;
@@ -249,6 +251,7 @@ public class DialogoUnico : MonoBehaviour
 
         // Activar cuerpo
         cuerpo.SetActive(true);
+        tp.SetActive(true);
     }
 
     private IEnumerator IniciarDialogoDespuesDelSonido()

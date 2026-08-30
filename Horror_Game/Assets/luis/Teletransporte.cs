@@ -4,6 +4,7 @@ using UnityEngine;
 public class Teletransporte : MonoBehaviour
 {
     public GameObject salida;
+    public GameObject objtransicion;
     public Animator anim;
     public float tiempoTransicion=1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,7 +23,7 @@ public class Teletransporte : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            
+            objtransicion.SetActive(true);
             StartCoroutine(teleport(collision.gameObject));
         }
     }
