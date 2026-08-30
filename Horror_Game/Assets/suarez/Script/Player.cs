@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     [SerializeField] private pistaslist pistamanager;
 
     private Diaologo NPCActual;
+    private ObjetoPista ObjetoActual;
     public bool quieto = false;
 
     private void Awake()
@@ -89,6 +90,10 @@ public class Player : MonoBehaviour
         {
             NPCActual.interact();
         }
+        else if (ObjetoActual != null)
+        {
+            ObjetoActual.Interactuar();
+        }
     }
     public void OnNext(InputValue value)
     {
@@ -126,12 +131,23 @@ public class Player : MonoBehaviour
         {
             NPCActual = collision.GetComponent<Diaologo>();
         }
+
+        if (collision.CompareTag("ObjetoPista"))
+        {
+            ObjetoActual = collision.GetComponent<ObjetoPista>();
+        }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("NPC"))
         {
             NPCActual = null;
+        }
+
+        if (collision.CompareTag("ObjetoPista"))
+        {
+            ObjetoActual = null;
         }
     }
 

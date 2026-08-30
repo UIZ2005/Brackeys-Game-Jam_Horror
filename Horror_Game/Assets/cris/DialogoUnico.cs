@@ -28,6 +28,7 @@ public class DialogoUnico : MonoBehaviour
     [Header("Sonido")]
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip sonido;
+    [SerializeField] private GameObject cuerpo;
 
     [SerializeField]
     private float duracionSonido = 1f;
@@ -245,6 +246,9 @@ public class DialogoUnico : MonoBehaviour
 
         // Restaurar volumen original
         audioSource.volume = volumenOriginal;
+
+        // Activar cuerpo
+        cuerpo.SetActive(true);
     }
 
     private IEnumerator IniciarDialogoDespuesDelSonido()

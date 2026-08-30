@@ -10,36 +10,37 @@ public class Diaologo : MonoBehaviour
     public string nombreNpc;
     public GameObject dialogoMark;
     public GameObject dialogopanel;
+
     [SerializeField] private GameObject caradialogo;
     public Sprite Cara;
     public TextMeshProUGUI texto;
-    [SerializeField, TextArea(4, 6)] private string[] lineasDialogo;
 
-    private float typingtext=0.05f;
+    [SerializeField, TextArea(4, 6)]
+    private string[] lineasDialogo;
+
+    [SerializeField, TextArea(4, 6)]
+    private string[] lineasDialogoDespuesPista;
+
+    private float typingtext = 0.05f;
 
     private bool isplayerInRange;
     private bool didDialagoStart;
     private int LineIndex;
     private Player player;
 
+    private bool pistaDescubierta = false;
 
     [Header("Sistema de pistas")]
-    public bool ispista=false;
+    public bool ispista = false;
     public string pistaTexto;
     private pistaslist pistamanager;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
         pistamanager = FindAnyObjectByType<pistaslist>();
         player = FindAnyObjectByType<Player>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -48,6 +49,7 @@ public class Diaologo : MonoBehaviour
             dialogoMark.SetActive(true);
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -65,14 +67,14 @@ public class Diaologo : MonoBehaviour
             {
                 startdialogo();
             }
-            else if (texto.text == lineasDialogo[LineIndex])
+            else if (texto.text == ObtenerLineaActual())
             {
                 nextdialogoLine();
             }
             else
             {
                 StopAllCoroutines();
-                texto.text = lineasDialogo[LineIndex];
+                texto.text = ObtenerLineaActual();
             }
         }
     }
@@ -81,13 +83,17 @@ public class Diaologo : MonoBehaviour
     {
         player.quieto = true;
         didDialagoStart = true;
+
         dialogopanel.SetActive(true);
         dialogoMark.SetActive(false);
+
         if (caradialogo != null && Cara != null)
         {
             caradialogo.GetComponent<Image>().sprite = Cara;
         }
+
         LineIndex = 0;
+
         StartCoroutine(ShowLine());
     }
 
@@ -95,31 +101,54 @@ public class Diaologo : MonoBehaviour
     {
         texto.text = string.Empty;
 
-        foreach(char ch in lineasDialogo[LineIndex])
+        foreach (char ch in ObtenerLineaActual())
         {
             texto.text += ch;
             yield return new WaitForSecondsRealtime(typingtext);
-
         }
 
         yield return null;
     }
-    
+
+    private string ObtenerLineaActual()
+    {
+        if (pistaDescubierta && lineasDialogoDespuesPista.Length > 0)
+        {
+            return lineasDialogoDespuesPista[LineIndex];
+        }
+
+        return lineasDialogo[LineIndex];
+    }
+
+    private string[] ObtenerDialogoActual()
+    {
+        if (pistaDescubierta && lineasDialogoDespuesPista.Length > 0)
+        {
+            return lineasDialogoDespuesPista;
+        }
+
+        return lineasDialogo;
+    }
+
     public void nextdialogoLine()
     {
         LineIndex++;
-        if(LineIndex < lineasDialogo.Length)
+
+        string[] dialogoActual = ObtenerDialogoActual();
+
+        if (LineIndex < dialogoActual.Length)
         {
             StartCoroutine(ShowLine());
         }
         else
         {
             didDialagoStart = false;
+
             dialogopanel.SetActive(false);
             dialogoMark.SetActive(true);
+
             player.quieto = false;
             texto.text = "";
-
 
             if (ispista)
             {
@@ -127,5 +156,11 @@ public class Diaologo : MonoBehaviour
                 ispista = false;
             }
         }
+    }
+
+    // Esta función se llama cuando el jugador descubre la pista
+    public void CambiarDialogo()
+    {
+        pistaDescubierta = true;
     }
 }
