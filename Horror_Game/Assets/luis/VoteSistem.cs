@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -13,11 +14,24 @@ public class VoteSistem : MonoBehaviour
     public TextMeshProUGUI textovoto;
     public GameObject[] caras;
     public TextMeshProUGUI Confidence;
+    private Player player;
+    public GameObject salida;
+    private GameManager game;
+    private GameObject caratemp;
+    public GameObject win;
+    public GameObject titulo;
+    public TextMeshProUGUI tituloni;
+
+    public GameObject[] botones;
+    private int N=1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        game = FindAnyObjectByType<GameManager>();
+        player = FindAnyObjectByType<Player>();
         npcs = FindObjectsByType<Diaologo>(FindObjectsInactive.Include,FindObjectsSortMode.None);
         pistas = FindAnyObjectByType<pistaslist>();
+        StartCoroutine(Titulos());
     }
 
     // Update is called once per frame
@@ -25,12 +39,19 @@ public class VoteSistem : MonoBehaviour
     {
         
     }
+    public void comenzarVotacion()
+    {
+        player.ActivarQuieto();
+        votacion.SetActive(true);
+        pistas.abir();
+    }
     public void seleccionado(string seleccionado)
     {
         culpableSeleccionado = seleccionado;
     }
     public void ConfirmarVoto()
     {
+        
         string votoPueblo = ObtenerVotoDelPueblo();
 
         if (culpableSeleccionado == "")
@@ -50,11 +71,11 @@ public class VoteSistem : MonoBehaviour
             votoPueblo = votoPredeterminado;
         }
 
-        if (culpableSeleccionado == culpableReal)
+        if (votoPueblo == culpableReal)
         {
-            //pantalla de victoria?
+            StartCoroutine(canvasGamewin());
         }
-
+        game.NextNoche();
         votacion.SetActive(false);
         resultados.SetActive(true);
 
@@ -67,6 +88,7 @@ public class VoteSistem : MonoBehaviour
         {
             if (cara.name.Equals(votoPueblo))
             {
+                caratemp = cara;
                 cara.SetActive(true);
             }
         }
@@ -78,7 +100,50 @@ public class VoteSistem : MonoBehaviour
                 npc.gameObject.SetActive(false);
             }
         }
+        foreach (GameObject obj in botones)
+        {
+            if (obj.name == votoPueblo)
+            {
+                obj.gameObject.SetActive(false);
+            }
+            if (obj.name == "samuel")
+            {
+                obj.gameObject.SetActive(false);
+            }
+        }
+        culpableSeleccionado = "";
+         player.DesactivarQuieto();
+       
+       votoPredeterminado = "tomas";
 
+        N++;
+        
+
+    }
+    public void starttitulo()
+    {
+        StartCoroutine(Titulos());
+    }
+    IEnumerator Titulos()
+    {
+        tituloni.text = "Night " + N.ToString();
+        titulo.SetActive(true);
+        yield return new WaitForSeconds(1.1f);
+        titulo.SetActive(false);
+    }
+    IEnumerator canvasGamewin()
+    {
+        win.SetActive(true);
+
+
+        yield return new WaitForSecondsRealtime(3f);
+        //devolver a escnea principal
+
+        yield return null;
+    }
+    public void desactivarcara()
+    {
+        caratemp.SetActive(false);
     }
     private int ObtenerNivelConfianza()
     {

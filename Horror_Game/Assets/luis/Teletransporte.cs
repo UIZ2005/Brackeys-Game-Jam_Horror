@@ -4,36 +4,43 @@ using UnityEngine;
 public class Teletransporte : MonoBehaviour
 {
     public GameObject salida;
-    public GameObject objtransicion;
     public Animator anim;
-    public float tiempoTransicion=1f;
+    public float tiempoTransicion = 1f;
+    private GameObject player1;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        player1 = FindAnyObjectByType<Player>().gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            objtransicion.SetActive(true);
             StartCoroutine(teleport(collision.gameObject));
         }
     }
+
+    public void teletransporte()
+    {
+        StartCoroutine(teleport(player1));
+    }
     IEnumerator teleport(GameObject player)
     {
+        player.GetComponent<Player>().ActivarQuieto();
         anim.SetBool("enter", true);
         yield return new WaitForSecondsRealtime(0.5f);
         player.transform.position = salida.transform.position;
 
         yield return new WaitForSecondsRealtime(tiempoTransicion);
+        player.GetComponent<Player>().DesactivarQuieto();
         anim.SetBool("enter", false);
 
 
