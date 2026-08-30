@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Diaologo : MonoBehaviour
 {
     [Header("Sistema de dialogos")]
+    public int efect=-1;
     public string nombreNpc;
     public GameObject dialogoMark;
     public GameObject dialogopanel;
@@ -34,11 +35,12 @@ public class Diaologo : MonoBehaviour
     public bool ispista = false;
     public string pistaTexto;
     private pistaslist pistamanager;
+    private AudioManager audioManager;
 
     private activeEvent evento;
     private void Start()
     {
-
+        audioManager = FindAnyObjectByType<AudioManager>();
         evento = GetComponent<activeEvent>();
         pistamanager = FindAnyObjectByType<pistaslist>();
         player = FindAnyObjectByType<Player>();
@@ -66,8 +68,15 @@ public class Diaologo : MonoBehaviour
     {
         if (isplayerInRange)
         {
+
             if (!didDialagoStart)
             {
+
+                if (efect >= 0)
+                {
+                    audioManager.seleccionAudio(efect);
+                }
+                    
                 startdialogo();
             }
             else if (texto.text == ObtenerLineaActual())
