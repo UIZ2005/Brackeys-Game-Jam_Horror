@@ -18,7 +18,6 @@ public class VoteSistem : MonoBehaviour
     {
         npcs = FindObjectsByType<Diaologo>(FindObjectsInactive.Include,FindObjectsSortMode.None);
         pistas = FindAnyObjectByType<pistaslist>();
-        pistas.abir();
     }
 
     // Update is called once per frame

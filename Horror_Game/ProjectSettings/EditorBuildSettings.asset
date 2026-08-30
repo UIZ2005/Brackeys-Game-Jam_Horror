@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/luis/PruebasAnim.unity
     guid: 025d832d2aa0e2b4b882430b9e4f2fd7
+  - enabled: 1
+    path: Assets/cris/EscenaIntroduccion.unity
+    guid: 22b03160a7ac036419c0160edd96dbda
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
