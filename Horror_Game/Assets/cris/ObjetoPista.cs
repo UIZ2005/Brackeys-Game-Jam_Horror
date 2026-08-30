@@ -5,6 +5,7 @@ public class ObjetoPista : MonoBehaviour
     [Header("Interacción")]
     [SerializeField] private GameObject interactuarMark;
     [SerializeField] private GameObject panelDetalles;
+    [SerializeField] private FadePanel fadePanel;
 
     [Header("Pista")]
     [SerializeField] private bool esPista = true;
@@ -111,10 +112,10 @@ public class ObjetoPista : MonoBehaviour
     {
         panelAbierto = false;
 
-        // Cerrar Canvas
-        if (panelDetalles != null)
+        // Cerrar Canvas mediante FadeOut
+        if (fadePanel != null)
         {
-            panelDetalles.SetActive(false);
+            fadePanel.FadeOut();
         }
 
         // Permitir movimiento
