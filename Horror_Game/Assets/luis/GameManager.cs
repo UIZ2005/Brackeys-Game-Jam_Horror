@@ -43,6 +43,10 @@ public class GameManager : MonoBehaviour
 
         //devolver a escnea principal
 
+
+        LoginEscena change = GetComponent<LoginEscena>();
+        change.changeEscena("Canvas");
+
         yield return null;
     }
 }

@@ -142,6 +142,9 @@ public class VoteSistem : MonoBehaviour
 
 
         yield return new WaitForSecondsRealtime(3f);
+
+        LoginEscena change = GetComponent<LoginEscena>();
+        change.changeEscena("Canvas");
         //devolver a escnea principal
 
         yield return null;
