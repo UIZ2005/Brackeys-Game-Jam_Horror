@@ -7,11 +7,12 @@ public class Teletransporte : MonoBehaviour
     public Animator anim;
     public float tiempoTransicion = 1f;
     private GameObject player1;
-
+    private AudioManager audioManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         player1 = FindAnyObjectByType<Player>().gameObject;
+        audioManager = FindAnyObjectByType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -34,6 +35,7 @@ public class Teletransporte : MonoBehaviour
     }
     IEnumerator teleport(GameObject player)
     {
+        audioManager.seleccionAudio(4);
         player.GetComponent<Player>().ActivarQuieto();
         anim.SetBool("enter", true);
         yield return new WaitForSecondsRealtime(0.5f);
