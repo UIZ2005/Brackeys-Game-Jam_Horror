@@ -35,8 +35,11 @@ public class Diaologo : MonoBehaviour
     public string pistaTexto;
     private pistaslist pistamanager;
 
+    private activeEvent evento;
     private void Start()
     {
+
+        evento = GetComponent<activeEvent>();
         pistamanager = FindAnyObjectByType<pistaslist>();
         player = FindAnyObjectByType<Player>();
     }
@@ -154,6 +157,10 @@ public class Diaologo : MonoBehaviour
             {
                 pistamanager.agregarPista(pistaTexto);
                 ispista = false;
+            }
+            if (evento != null)
+            {
+                evento.activarevento();
             }
         }
     }
