@@ -22,6 +22,9 @@ public class EventoRayo : MonoBehaviour
     [SerializeField] private float rayoApagado = 0.12f;
     [SerializeField] private float pausaEntreRayos = 0.15f;
 
+    [Header("Sonido del Rayo")]
+    [SerializeField] private AudioSource sonidoRayo;
+
     [Header("Parpadeo de Spot Lights")]
     [SerializeField] private float tiempoParpadeo = 0.08f;
     [SerializeField] private int cantidadParpadeos = 5;
@@ -75,6 +78,11 @@ public class EventoRayo : MonoBehaviour
     {
         // PRIMER DESTELLO
         luzGlobal2.SetActive(true);
+
+        // SONIDO DEL RAYO
+        if (sonidoRayo != null)
+            sonidoRayo.Play();
+
         yield return new WaitForSeconds(rayoEncendido);
 
         luzGlobal2.SetActive(false);
