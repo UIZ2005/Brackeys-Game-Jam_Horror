@@ -122,11 +122,16 @@ public class VoteSistem : MonoBehaviour
     }
     public void starttitulo()
     {
+        tituloni.text = "Night " + N.ToString();
+
+        if (N == 3)
+        {
+            tituloni.text = "Night " + N.ToString() + "\n They found Samuel dead";
+        }
         StartCoroutine(Titulos());
     }
     IEnumerator Titulos()
     {
-        tituloni.text = "Night " + N.ToString();
         titulo.SetActive(true);
         yield return new WaitForSeconds(1.5f);
         titulo.SetActive(false);
