@@ -2309,6 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 812686755}
   dialogopanel: {fileID: 794680974}
@@ -4370,6 +4371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 1104773336}
   dialogopanel: {fileID: 335423364}
@@ -4913,13 +4915,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &214681251
-BoxCollider:
+--- !u!61 &214681251
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214681248}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4928,12 +4933,34 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 18.489553, y: 13.291578, z: 0.2}
-  m_Center: {x: -0.1302167, y: -0.20834395, z: 0}
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.0625, y: 15.6875}
+    newSize: {x: 19.0625, y: 15.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 19.0625, y: 15.6875}
+  m_EdgeRadius: 0
 --- !u!1 &216753465
 GameObject:
   m_ObjectHideFlags: 0
@@ -5199,6 +5226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: 
   dialogoMark: {fileID: 1752453983}
   dialogopanel: {fileID: 794680974}
@@ -13171,6 +13199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: bruno
   dialogoMark: {fileID: 957588770}
   dialogopanel: {fileID: 794680974}
@@ -16631,6 +16660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: tomas
   dialogoMark: {fileID: 760087912}
   dialogopanel: {fileID: 794680974}
@@ -20143,6 +20173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: marta
   dialogoMark: {fileID: 655622167}
   dialogopanel: {fileID: 794680974}
@@ -20554,6 +20585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 410210119}
   dialogopanel: {fileID: 794680974}
@@ -20914,6 +20946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: tomas
   dialogoMark: {fileID: 2055031386}
   dialogopanel: {fileID: 794680974}
@@ -21330,6 +21363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: bruno
   dialogoMark: {fileID: 1514283165}
   dialogopanel: {fileID: 794680974}
@@ -26126,6 +26160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 782066250}
   dialogopanel: {fileID: 335423364}
@@ -26370,6 +26405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: tomas
   dialogoMark: {fileID: 813723876}
   dialogopanel: {fileID: 794680974}
@@ -26947,6 +26983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 2082653887}
   dialogopanel: {fileID: 335423364}
@@ -27159,6 +27196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1070739163}
   dialogopanel: {fileID: 335423364}
@@ -28111,6 +28149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1898897597}
   dialogopanel: {fileID: 335423364}
@@ -28765,6 +28804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 702468898}
   dialogopanel: {fileID: 335423364}
@@ -30351,6 +30391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 2044453208}
   dialogopanel: {fileID: 335423364}
@@ -39359,7 +39400,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: 48, z: 0}
@@ -39401,7 +39442,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -14, y: 48, z: 0}
@@ -39655,6 +39696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 1059737624}
   dialogopanel: {fileID: 335423364}
@@ -39949,6 +39991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 158856443}
   dialogopanel: {fileID: 335423364}
@@ -49494,6 +49537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 812881871}
   dialogopanel: {fileID: 794680974}
@@ -49951,6 +49995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 1039908094}
   dialogopanel: {fileID: 335423364}
@@ -50251,6 +50296,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720757485}
   m_CullTransparentMesh: 1
+--- !u!1 &722474451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722474453}
+  - component: {fileID: 722474452}
+  m_Layer: 0
+  m_Name: Rioaudio (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &722474452
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722474451}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 340f326e21ce3cf4cb36879056df583b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 8.07
+  MaxDistance: 19.919226
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &722474453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722474451}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2126984138}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &723081145
 GameObject:
   m_ObjectHideFlags: 0
@@ -50413,6 +50587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 2080624281}
   dialogopanel: {fileID: 794680974}
@@ -50609,6 +50784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 510212162}
   dialogopanel: {fileID: 794680974}
@@ -51144,6 +51320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 1653177238}
   dialogopanel: {fileID: 335423364}
@@ -51339,6 +51516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 910002222}
   dialogopanel: {fileID: 794680974}
@@ -151228,6 +151406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: marta
   dialogoMark: {fileID: 1338108647}
   dialogopanel: {fileID: 794680974}
@@ -151632,6 +151811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: marta
   dialogoMark: {fileID: 61060793}
   dialogopanel: {fileID: 794680974}
@@ -151937,6 +152117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: elias
   dialogoMark: {fileID: 482816087}
   dialogopanel: {fileID: 794680974}
@@ -152756,6 +152937,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &819531948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 819531950}
+  - component: {fileID: 819531949}
+  m_Layer: 0
+  m_Name: Rioaudio (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &819531949
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819531948}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 340f326e21ce3cf4cb36879056df583b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 8.07
+  MaxDistance: 19.919226
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &819531950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819531948}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.8999996, y: 21.400002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2126984138}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &828862957
 GameObject:
   m_ObjectHideFlags: 0
@@ -152964,6 +153274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: tomas
   dialogoMark: {fileID: 196875752}
   dialogopanel: {fileID: 794680974}
@@ -153426,6 +153737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: bruno
   dialogoMark: {fileID: 1268664655}
   dialogopanel: {fileID: 794680974}
@@ -153724,6 +154036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: clara
   dialogoMark: {fileID: 195329706}
   dialogopanel: {fileID: 794680974}
@@ -154678,6 +154991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: bruno
   dialogoMark: {fileID: 1584249544}
   dialogopanel: {fileID: 794680974}
@@ -155675,6 +155989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 1145499933}
   dialogopanel: {fileID: 335423364}
@@ -160452,6 +160767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 505294361}
   dialogopanel: {fileID: 335423364}
@@ -160697,6 +161013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: ines
   dialogoMark: {fileID: 655833627}
   dialogopanel: {fileID: 794680974}
@@ -162263,6 +162580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: bruno
   dialogoMark: {fileID: 82342529}
   dialogopanel: {fileID: 794680974}
@@ -162928,6 +163246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1983227669}
   dialogopanel: {fileID: 335423364}
@@ -171849,7 +172168,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -22, z: 0}
@@ -172101,7 +172420,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -21, z: 0}
@@ -172416,7 +172735,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -20, z: 0}
@@ -172899,7 +173218,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: -18, z: 0}
@@ -172941,7 +173260,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: -18, z: 0}
@@ -173088,7 +173407,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -12, y: -18, z: 0}
@@ -173298,7 +173617,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -17, z: 0}
@@ -173445,7 +173764,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: -16, z: 0}
@@ -173886,7 +174205,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -14, y: -15, z: 0}
@@ -173907,7 +174226,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: -15, z: 0}
@@ -175020,7 +175339,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -8, z: 0}
@@ -175314,7 +175633,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -14, y: -6, z: 0}
@@ -175566,7 +175885,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: -4, z: 0}
@@ -175587,7 +175906,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: -3, z: 0}
@@ -175713,7 +176032,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: -3, z: 0}
@@ -175860,7 +176179,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: -1, z: 0}
@@ -176175,7 +176494,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: 1, z: 0}
@@ -176259,7 +176578,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 2, z: 0}
@@ -176280,7 +176599,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 2, z: 0}
@@ -176595,7 +176914,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 4, z: 0}
@@ -176931,7 +177250,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: 6, z: 0}
@@ -177099,7 +177418,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 8, z: 0}
@@ -177309,7 +177628,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 10, z: 0}
@@ -177540,7 +177859,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 11, z: 0}
@@ -177603,7 +177922,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 12, z: 0}
@@ -179010,7 +179329,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: 25, z: 0}
@@ -179430,7 +179749,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 28, z: 0}
@@ -179892,7 +180211,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -23, y: 32, z: 0}
@@ -180081,7 +180400,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 34, z: 0}
@@ -180396,7 +180715,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: 36, z: 0}
@@ -180438,7 +180757,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 37, z: 0}
@@ -181068,7 +181387,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: 42, z: 0}
@@ -181089,7 +181408,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: 42, z: 0}
@@ -181593,7 +181912,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 45, z: 0}
@@ -181971,7 +182290,7 @@ Tilemap:
       - {fileID: 226425712, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1351769422, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
       - {fileID: 1233513871, guid: 80cefed8a766a0b4dafbcdd52556efb6, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -19, y: 47, z: 0}
@@ -183494,6 +183813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1342602560}
   dialogopanel: {fileID: 794680974}
@@ -184358,6 +184678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: marta
   dialogoMark: {fileID: 1205540012}
   dialogopanel: {fileID: 794680974}
@@ -184594,6 +184915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: 
   dialogoMark: {fileID: 1096761531}
   dialogopanel: {fileID: 794680974}
@@ -185012,6 +185334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: bruno
   dialogoMark: {fileID: 1600568946}
   dialogopanel: {fileID: 794680974}
@@ -185337,6 +185660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: ines
   dialogoMark: {fileID: 1505972673}
   dialogopanel: {fileID: 794680974}
@@ -185707,6 +186031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: elias
   dialogoMark: {fileID: 678114584}
   dialogopanel: {fileID: 794680974}
@@ -186534,6 +186859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1544231514}
   dialogopanel: {fileID: 794680974}
@@ -187446,6 +187772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: elias
   dialogoMark: {fileID: 739672989}
   dialogopanel: {fileID: 794680974}
@@ -187657,6 +187984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 344793061}
   dialogopanel: {fileID: 335423364}
@@ -187892,6 +188220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: tomas
   dialogoMark: {fileID: 1210921328}
   dialogopanel: {fileID: 794680974}
@@ -188336,6 +188665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: ines
   dialogoMark: {fileID: 1800348099}
   dialogopanel: {fileID: 794680974}
@@ -188710,6 +189040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: clara
   dialogoMark: {fileID: 2049898696}
   dialogopanel: {fileID: 794680974}
@@ -190793,6 +191124,155 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1202786191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202786192}
+  - component: {fileID: 1202786194}
+  - component: {fileID: 1202786193}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1202786192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202786191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.63717, y: -0.07777, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1202786193
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202786191}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 4da8e3cfae30f1740b9261f3c7863328, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 495.0495
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1202786194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202786191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11ff22a8d9508641b75f71789eb806b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  audios:
+  - {fileID: 8300000, guid: b05d1f22cd7d0e047a7392d7529642b9, type: 3}
+  - {fileID: 8300000, guid: f7ddcd5e3e0ea3348b8fb379c12f1965, type: 3}
+  - {fileID: 8300000, guid: f178d93fdd0855240b5a73bd9b2cad4c, type: 3}
+  - {fileID: 8300000, guid: 66af83faf3ac7fd48ac070b5a3a4f785, type: 3}
+  - {fileID: 8300000, guid: 1a719b4d0197d7940a9ebcbb058e7403, type: 3}
+  - {fileID: 8300000, guid: d412e9a5b4bb5744893a39a75ca6de7d, type: 3}
 --- !u!1 &1205540012
 GameObject:
   m_ObjectHideFlags: 0
@@ -191411,6 +191891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: 
   dialogoMark: {fileID: 816286845}
   dialogopanel: {fileID: 794680974}
@@ -191587,6 +192068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::activeEvent
   desactivar: {fileID: 1384582025}
   activar: {fileID: 355429281}
+  iskill: 0
 --- !u!1001 &1224156147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -191721,6 +192203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 1404596926}
   dialogopanel: {fileID: 335423364}
@@ -192704,6 +193187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1146184702}
   dialogopanel: {fileID: 335423364}
@@ -194120,6 +194604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 874254833}
   dialogopanel: {fileID: 335423364}
@@ -194384,7 +194869,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Night 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dccbc4de289d2d44da49e2aa9937ceb1, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -194451,7 +194936,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1296548162
@@ -195975,6 +196460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: elias
   dialogoMark: {fileID: 548000471}
   dialogopanel: {fileID: 794680974}
@@ -196703,6 +197189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: tomas
   dialogoMark: {fileID: 415902068}
   dialogopanel: {fileID: 794680974}
@@ -207302,6 +207789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 573603921}
   dialogopanel: {fileID: 1261479593}
@@ -209045,6 +209533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: ines
   dialogoMark: {fileID: 2026046569}
   dialogopanel: {fileID: 794680974}
@@ -209372,6 +209861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: tomas
   dialogoMark: {fileID: 790750964}
   dialogopanel: {fileID: 794680974}
@@ -210592,6 +211082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: elias
   dialogoMark: {fileID: 1625754911}
   dialogopanel: {fileID: 794680974}
@@ -233319,6 +233810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1711845060}
   dialogopanel: {fileID: 335423364}
@@ -233554,6 +234046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: clara
   dialogoMark: {fileID: 1934302608}
   dialogopanel: {fileID: 794680974}
@@ -343635,6 +344128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: marta
   dialogoMark: {fileID: 264188404}
   dialogopanel: {fileID: 794680974}
@@ -343813,6 +344307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::activeEvent
   desactivar: {fileID: 1094685612}
   activar: {fileID: 1223696447}
+  iskill: 1
 --- !u!1 &1637704720
 GameObject:
   m_ObjectHideFlags: 0
@@ -343845,6 +344340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 260388321}
   dialogopanel: {fileID: 794680974}
@@ -344071,6 +344567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1501777827}
   dialogopanel: {fileID: 335423364}
@@ -344307,6 +344804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: clara
   dialogoMark: {fileID: 1878026567}
   dialogopanel: {fileID: 794680974}
@@ -345337,6 +345835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: clara
   dialogoMark: {fileID: 1396247206}
   dialogopanel: {fileID: 794680974}
@@ -353638,6 +354137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 155793964}
   dialogopanel: {fileID: 794680974}
@@ -355291,6 +355791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: ines
   dialogoMark: {fileID: 731729040}
   dialogopanel: {fileID: 794680974}
@@ -355527,6 +356028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: tomas
   dialogoMark: {fileID: 1124639492}
   dialogopanel: {fileID: 794680974}
@@ -356463,6 +356965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: marta
   dialogoMark: {fileID: 859573732}
   dialogopanel: {fileID: 794680974}
@@ -356627,6 +357130,135 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1956315312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956315315}
+  - component: {fileID: 1956315313}
+  m_Layer: 0
+  m_Name: SonidoAMbiente
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1956315313
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956315312}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 495.0495
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1956315315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956315312}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.63717, y: -0.07777, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1961238943
 GameObject:
   m_ObjectHideFlags: 0
@@ -357481,6 +358113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: ines
   dialogoMark: {fileID: 216753465}
   dialogopanel: {fileID: 794680974}
@@ -357645,6 +358278,135 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1998021243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998021246}
+  - component: {fileID: 1998021244}
+  m_Layer: 0
+  m_Name: Rioaudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1998021244
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998021243}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 340f326e21ce3cf4cb36879056df583b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 8.07
+  MaxDistance: 19.919226
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1998021246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998021243}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.2999992, y: 47.399998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2126984138}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000890463
 GameObject:
   m_ObjectHideFlags: 0
@@ -357885,6 +358647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 1
   nombreNpc: clara
   dialogoMark: {fileID: 2030833694}
   dialogopanel: {fileID: 794680974}
@@ -358095,6 +358858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: 
   dialogoMark: {fileID: 1102977184}
   dialogopanel: {fileID: 794680974}
@@ -359076,6 +359840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: -1
   nombreNpc: elias
   dialogoMark: {fileID: 1666246009}
   dialogopanel: {fileID: 794680974}
@@ -360394,6 +361159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295b917049e2886478597097a288e5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diaologo
+  efect: 0
   nombreNpc: 
   dialogoMark: {fileID: 2125953256}
   dialogopanel: {fileID: 335423364}
@@ -360763,6 +361529,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126034241}
   m_CullTransparentMesh: 1
+--- !u!1 &2126984137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2126984138}
+  m_Layer: 0
+  m_Name: RIOSOUND
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2126984138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126984137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.2, y: -6.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1998021246}
+  - {fileID: 819531950}
+  - {fileID: 722474453}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129884836
 GameObject:
   m_ObjectHideFlags: 0
@@ -360908,3 +361708,6 @@ SceneRoots:
   - {fileID: 1720054960}
   - {fileID: 214681250}
   - {fileID: 1044156669}
+  - {fileID: 1202786192}
+  - {fileID: 1956315315}
+  - {fileID: 2126984138}
