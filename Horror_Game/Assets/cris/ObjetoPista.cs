@@ -32,6 +32,7 @@ public class ObjetoPista : MonoBehaviour
             panelDetalles.SetActive(false);
         }
 
+        // El indicador comienza apagado
         if (interactuarMark != null)
         {
             interactuarMark.SetActive(false);
@@ -44,7 +45,8 @@ public class ObjetoPista : MonoBehaviour
         {
             isPlayerInRange = true;
 
-            if (interactuarMark != null)
+            // Mostrar indicador de interacción
+            if (interactuarMark != null && !panelAbierto)
             {
                 interactuarMark.SetActive(true);
             }
@@ -57,6 +59,7 @@ public class ObjetoPista : MonoBehaviour
         {
             isPlayerInRange = false;
 
+            // Ocultar indicador
             if (interactuarMark != null)
             {
                 interactuarMark.SetActive(false);
@@ -66,9 +69,11 @@ public class ObjetoPista : MonoBehaviour
 
     public void Interactuar()
     {
+        // Si el jugador no está cerca, no hacer nada
         if (!isPlayerInRange)
             return;
 
+        // Si el panel ya está abierto, no volver a abrirlo
         if (panelAbierto)
             return;
 
@@ -79,49 +84,75 @@ public class ObjetoPista : MonoBehaviour
     {
         panelAbierto = true;
 
-        // Ocultar el indicador de interacción
+        // Ocultar indicador de interacción
         if (interactuarMark != null)
         {
             interactuarMark.SetActive(false);
         }
 
         // Detener al jugador
-        player.ActivarQuieto();
+        if (player != null)
+        {
+            player.ActivarQuieto();
+        }
 
-        // Mostrar Canvas
+        // Mostrar el panel
         if (panelDetalles != null)
         {
             panelDetalles.SetActive(true);
         }
 
-        // Agregar la pista solamente la primera vez
+        // Registrar la pista SOLO LA PRIMERA VEZ
         if (esPista && !pistaDescubierta)
         {
-            pistamanager.agregarPista(pistaTexto);
+            if (pistamanager != null)
+            {
+                pistamanager.agregarPista(pistaTexto);
+            }
 
             pistaDescubierta = true;
 
+            // Cambiar diálogo del NPC solamente la primera vez
             if (npcACambiar != null)
             {
                 npcACambiar.CambiarDialogo();
             }
         }
+
+        // Hacer FadeIn al abrir
+        if (fadePanel != null)
+        {
+            fadePanel.FadeIn();
+        }
     }
 
     public void CerrarDetalles()
     {
+        // Marcar que el panel ya está cerrado
         panelAbierto = false;
 
-        // Cerrar Canvas mediante FadeOut
+        // Hacer FadeOut
         if (fadePanel != null)
         {
             fadePanel.FadeOut();
         }
+        else
+        {
+            // Si no hay FadePanel, simplemente apagar el panel
+            if (panelDetalles != null)
+            {
+                panelDetalles.SetActive(false);
+            }
+        }
 
-        // Permitir movimiento
-        player.DesactivarQuieto();
+        // Permitir nuevamente el movimiento del jugador
+        if (player != null)
+        {
+            player.DesactivarQuieto();
+        }
 
-        // Si sigue cerca del objeto, mostrar nuevamente el indicador
+        // Si el jugador sigue cerca del objeto,
+        // volver a mostrar el indicador de interacción
         if (isPlayerInRange && interactuarMark != null)
         {
             interactuarMark.SetActive(true);
